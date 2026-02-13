@@ -5,6 +5,7 @@ import { usePortfolio } from '@/context/PortfolioContext';
 import { Section, Card, CardContent, Button, Input, Textarea, useToast } from '@/components/ui';
 import { fadeInLeft, fadeInRight } from '@/lib/animations';
 import { useScrollReveal } from '@/hooks/useScrollReveal';
+import { isEmailDeliveryConfigured, sendContactEmail } from '@/lib/contactEmail';
 
 interface FormData {
   name: string;
@@ -69,11 +70,21 @@ export function Contact() {
     setIsSubmitting(true);
 
     try {
-      await new Promise((resolve) => setTimeout(resolve, 1500));
+      if (!isEmailDeliveryConfigured()) {
+        throw new Error('Email delivery is not configured.');
+      }
+
+      await sendContactEmail({
+        name: formData.name.trim(),
+        email: formData.email.trim(),
+        recipientEmail: personal.email,
+        subject: formData.subject.trim(),
+        message: formData.message.trim(),
+      });
 
       addToast({
         type: 'success',
-        title: 'Message Sent!',
+        title: 'Message Sent',
         message: contact.successMessage,
       });
 
@@ -82,7 +93,7 @@ export function Contact() {
       addToast({
         type: 'error',
         title: 'Failed to Send',
-        message: contact.errorMessage,
+        message: `${contact.errorMessage} Missing setup? Check .env values for EmailJS.`,
       });
     } finally {
       setIsSubmitting(false);
