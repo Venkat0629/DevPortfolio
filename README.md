@@ -46,6 +46,24 @@ npm run build
 npm run preview
 ```
 
+### Contact Form Email Setup (EmailJS)
+
+The contact form sends email via EmailJS. Configure it once:
+
+1. Create an account at EmailJS and add an email service (Gmail/Outlook/custom SMTP).
+2. Create an email template with these variables:
+   - `{{from_name}}`
+   - `{{from_email}}`
+   - `{{subject}}`
+   - `{{message}}`
+3. Copy `.env.example` to `.env` and set:
+   - `VITE_EMAILJS_SERVICE_ID`
+   - `VITE_EMAILJS_TEMPLATE_ID`
+   - `VITE_EMAILJS_PUBLIC_KEY`
+4. Restart the dev server after updating `.env`.
+
+If these env values are missing, submit will fail and show an error toast.
+
 ## Customization
 
 ### Portfolio Data
