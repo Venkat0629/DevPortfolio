@@ -1,0 +1,10 @@
+export { Hero } from './Hero';
+export { About } from './About';
+export { Skills } from './Skills';
+export { Experience } from './Experience';
+export { Projects } from './Projects';
+export { Certifications } from './Certifications';
+export { Education } from './Education';
+export { Contact } from './Contact';
+export { ResumeViewer } from './ResumeViewer';
+export { default as GithubContributions } from './GithubContributions';

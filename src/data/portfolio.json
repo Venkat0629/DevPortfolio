@@ -1,0 +1,504 @@
+{
+  "meta": {
+    "title": "Veera Venkata Sai Mane | Software Developer",
+    "description": "Java Full Stack Developer with 4 years of experience building high-performance, scalable web and cloud-native applications across e-commerce, logistics, and cloud infrastructure domains.",
+    "keywords": ["Software Developer", "Java Full Stack Developer", "Spring Boot", "Microservices", "React", "Angular", "AWS", "Azure", "Docker", "Kubernetes"],
+    "author": "Veera Venkata Sai Mane",
+    "siteUrl": "https://veeravenkatasaimane.dev",
+    "ogImage": "/og-image.png"
+  },
+  "personal": {
+    "name": "Veera Venkata Sai Mane",
+    "firstName": "Veera Venkata Sai",
+    "lastName": "Mane",
+    "title": "Software Developer",
+    "tagline": "Java Full Stack Developer with 4 years of experience across e-commerce, logistics, and cloud infrastructure domains",
+    "bio": "Java Full Stack Developer with 4 years of experience building high-performance, scalable web and cloud-native applications. Skilled in developing RESTful microservices with Spring Boot, creating responsive frontends using React/Angular, and deploying on AWS/Azure with Docker and Kubernetes. Experienced in debugging complex issues, implementing CI/CD pipelines for automated delivery, and driving performance optimization within Agile teams across e-commerce, logistics, and cloud infrastructure enterprise domains.",
+    "location": "Hyderabad, Telangana - 500081",
+    "email": "venkatsaimane@gmail.com",
+    "phone": "+91 9963064055",
+    "resumeUrl": "/resume.pdf",
+    "availability": "Open to opportunities"
+  },
+  "social": {
+    "github": "https://github.com/Venkat0629",
+    "linkedin": "https://www.linkedin.com/in/veera-venkata-sai-mane/",
+    "twitter": "https://twitter.com/venkat0629",
+    "crio": "https://www.crio.do/learn/portfolio/venkatsaimane",
+    "hackerrank": "https://www.hackerrank.com/profile/venkatsaimane"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "headline": "I build scalable enterprise applications",
+    "subheadline": "Java Full Stack Developer with 4 years of experience specializing in Spring Boot microservices, React/Angular frontends, and AWS/Azure cloud deployments.",
+    "cta": {
+      "primary": {
+        "text": "View My Work",
+        "link": "#projects"
+      },
+      "secondary": {
+        "text": "Get In Touch",
+        "link": "#contact"
+      }
+    },
+    "stats": [
+      { "value": "4+", "label": "Years Experience" },
+      { "value": "10+", "label": "Projects" },
+      { "value": "20+", "label": "Technologies" }
+    ]
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Get to know me better",
+    "description": [
+      "I'm Veera Venkata Sai Mane, a Software Developer based in Hyderabad with 4 years of professional experience across e-commerce, logistics, and cloud infrastructure enterprise domains.",
+      "My expertise spans backend development with Java and Spring Boot microservices, frontend development with React and Angular, and cloud deployments on AWS and Azure with Docker and Kubernetes. I'm experienced in implementing CI/CD pipelines, automating workflows with Ansible, and integrating enterprise tools like ServiceNow, OpenStack, and Kafka.",
+      "I've built logistics portals, e-commerce platforms like VibeCart, collaborative shopping features for Williams-Sonoma, and the Polycloud Platform — improving cloud resource management by 60% and reducing server provisioning time by 85%."
+    ],
+    "highlights": [
+      "4+ years of hands-on enterprise development",
+      "Multi-Cloud Certified — AWS, Azure & Oracle",
+      "Architected scalable microservices & cloud-native solutions",
+      "Drove end-to-end CI/CD & infrastructure automation",
+      "Domain expertise in e-commerce, logistics & SaaS platforms",
+      "Full Stack — Spring Boot, React, Docker & Kubernetes"
+    ]
+  },
+  "skills": {
+    "title": "Skills & Technologies",
+    "subtitle": "Technologies I work with",
+    "categories": [
+      {
+        "name": "Languages & Frameworks",
+        "icon": "Code",
+        "skills": [
+          { "name": "Java", "level": 92 },
+          { "name": "JavaScript", "level": 88 },
+          { "name": "Spring Boot", "level": 90 },
+          { "name": "ReactJS", "level": 85 },
+          { "name": "Angular", "level": 80 },
+          { "name": "Redux", "level": 78 }
+        ]
+      },
+      {
+        "name": "Web & Frontend",
+        "icon": "Monitor",
+        "skills": [
+          { "name": "HTML5/CSS3", "level": 92 },
+          { "name": "Bootstrap", "level": 88 },
+          { "name": "Material-UI", "level": 82 },
+          { "name": "REST APIs", "level": 92 },
+          { "name": "JPA/JWT", "level": 85 }
+        ]
+      },
+      {
+        "name": "Cloud & DevOps",
+        "icon": "Cloud",
+        "skills": [
+          { "name": "AWS (EC2, S3)", "level": 82 },
+          { "name": "Azure", "level": 80 },
+          { "name": "Docker", "level": 85 },
+          { "name": "Kubernetes", "level": 78 },
+          { "name": "Jenkins", "level": 80 },
+          { "name": "Ansible", "level": 82 }
+        ]
+      },
+      {
+        "name": "Databases & Tools",
+        "icon": "Database",
+        "skills": [
+          { "name": "MySQL", "level": 88 },
+          { "name": "PostgreSQL", "level": 85 },
+          { "name": "MongoDB", "level": 78 },
+          { "name": "Oracle", "level": 80 },
+          { "name": "Git/JIRA", "level": 90 },
+          { "name": "Kafka", "level": 80 }
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "title": "Work Experience",
+    "subtitle": "4+ years across enterprise domains",
+    "positions": [
+      {
+        "id": 1,
+        "company": "Deloitte USI",
+        "website": "https://www.deloitte.com",
+        "logo": "/logos/deloitte.png",
+        "position": "Consultant",
+        "location": "Hyderabad, India",
+        "type": "Full-time",
+        "startDate": "2025-03",
+        "endDate": "Present",
+        "description": "Working as a Consultant on Dell Inc.'s logistics portals, delivering new features, migrating legacy systems to microservices, and resolving high-severity security vulnerabilities.",
+        "highlights": [
+          "Developed and enhanced logistics portals (GOLF, Dragon, TIP, 3PL) for Dell Inc. Delivered Reports modules and Vendor UI/UX enhancements",
+          "Migrated legacy systems to microservices architecture with flag-based feature enablement for controlled releases",
+          "Resolved high-severity security vulnerabilities using secure coding practices, dependency upgrades, and configuration hardening",
+          "Enhanced Work Order processing for upgraded vendor XML integrations, improving data accuracy and third-party onboarding",
+          "Automated multilingual (Spanish) reports and implemented Print Receipt Generation service for traceability and audit readiness",
+          "Performed production support and critical bug fixes, improving system stability and reducing operational incidents"
+        ],
+        "technologies": ["Java", "Spring Boot", "Microservices", "React", "Angular", "Jenkins", "Docker", "SQL"]
+      },
+      {
+        "id": 2,
+        "company": "Nisum Technologies",
+        "website": "https://www.nisum.com",
+        "logo": "/logos/nisum.png",
+        "position": "Software Engineer",
+        "location": "Hyderabad, India",
+        "type": "Full-time",
+        "startDate": "2024-06",
+        "endDate": "2025-03",
+        "description": "Built VibeCart e-commerce platform and contributed to Williams-Sonoma's Share Cart and Registry features for collaborative shopping experiences.",
+        "highlights": [
+          "Developed VibeCart, a scalable e-commerce platform using Spring Boot and React with microservices architecture",
+          "Led Account Management and Offer Management Services - designed and implemented core features",
+          "Contributed to Williams-Sonoma's Share Cart feature, enabling users to share shopping carts for collaborative shopping",
+          "Developed the Registry feature for Williams-Sonoma, allowing users to create event registries and share them for gift purchases"
+        ],
+        "technologies": ["Java", "Spring Boot", "React", "Microservices", "Docker", "Kafka", "SQL", "REST APIs"]
+      },
+      {
+        "id": 3,
+        "company": "Infosys Ltd",
+        "website": "https://www.infosys.com",
+        "logo": "/logos/infosys.svg",
+        "position": "System Engineer",
+        "location": "Hyderabad, India",
+        "type": "Full-time",
+        "startDate": "2022-01",
+        "endDate": "2024-06",
+        "description": "Developed and deployed the Infosys Polycloud Platform, a multi-cloud management tool. Integrated 8+ enterprise tools, automated 18+ use cases, and achieved significant performance improvements.",
+        "highlights": [
+          "Developed and deployed Infosys Polycloud Platform, improving cloud resource management by 60%",
+          "Integrated 8+ tools (ServiceNow, OpenStack, Ceph, NetApp, Cloudian, OP5Monitor) into the Polycloud framework",
+          "Reduced OpenStack server provisioning time by 85% through automation workflows",
+          "Created end-to-end automation solutions using Ansible and integrated APIs, streamlining 18+ use cases and reducing manual intervention by 70%",
+          "Developed Polycloud UI dashboards for trend visualization and forecasting, reducing decision-making time by 65%",
+          "Led cloud decommissioning project, reducing manual efforts and time by 88%"
+        ],
+        "technologies": ["Java", "Spring Boot", "Angular", "OpenStack", "Ansible", "AWS", "Azure", "Docker", "Jenkins", "Python"]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "Professional, Personal & Skill-up projects",
+    "items": [
+      {
+        "id": 1,
+        "title": "Dell Logistics Portals (GOLF, Dragon, TIP, 3PL)",
+        "description": "Enterprise logistics portals with Reports modules, Vendor UI/UX, microservices migration, and multilingual automation.",
+        "longDescription": "Developed and enhanced multiple logistics portals including GOLF, Dragon, TIP, and 3PL. Delivered new features including Reports modules and Vendor UI/UX enhancements. Migrated legacy systems to microservices with flag-based feature enablement. Automated multilingual reports and implemented Print Receipt Generation service.",
+        "image": "/projects/dell-logistics.jpg",
+        "technologies": ["Java", "Spring Boot", "React", "Angular", "Microservices", "Jenkins", "Docker"],
+        "category": "Professional",
+        "featured": true,
+        "links": {}
+      },
+      {
+        "id": 2,
+        "title": "VibeCart - E-Commerce Platform",
+        "description": "Scalable e-commerce platform with Account Management and Offer Management microservices.",
+        "longDescription": "Developed VibeCart, a comprehensive e-commerce platform using Spring Boot and React. Led Account Management and Offer Management Services with microservices architecture including API Gateway, Supply Chain Management, Order Fulfillment, and Discovery services.",
+        "image": "/projects/vibecart.jpg",
+        "technologies": ["Java", "Spring Boot", "React", "Microservices", "Docker", "Kafka", "SQL"],
+        "category": "Professional",
+        "featured": true,
+        "links": {
+          "github": "https://github.com/Venkat0629/vibecart-repo"
+        }
+      },
+      {
+        "id": 3,
+        "title": "Williams-Sonoma: Share Cart & Registry",
+        "description": "Collaborative shopping features enabling cart sharing and event registry creation for gift purchases.",
+        "longDescription": "Contributed to Williams-Sonoma's Share Cart feature enabling users to share their shopping carts for collaborative shopping experiences. Developed the Registry feature allowing users to create event registries, share them with others, and add items seamlessly for gift purchases.",
+        "image": "/projects/williams-sonoma.jpg",
+        "technologies": ["Java", "Spring Boot", "React", "REST APIs", "Microservices"],
+        "category": "Professional",
+        "featured": true,
+        "links": {}
+      },
+      {
+        "id": 4,
+        "title": "Infosys Polycloud Platform",
+        "description": "Multi-cloud management tool improving cloud resource management by 60%, integrating 8+ enterprise tools with automated workflows.",
+        "longDescription": "Developed and deployed the Polycloud Platform, a multi-cloud management tool that improved cloud resource management by 60%. Integrated 8+ tools (ServiceNow, OpenStack, Ceph, NetApp, Cloudian, OP5Monitor). Reduced server provisioning time by 85% through automation. Created UI dashboards for trend visualization reducing decision-making time by 65%. Led cloud decommissioning project reducing manual efforts by 88%.",
+        "image": "/projects/polycloud.jpg",
+        "technologies": ["Java", "Spring Boot", "Angular", "OpenStack", "Ansible", "AWS", "Azure", "Docker"],
+        "category": "Professional",
+        "featured": true,
+        "links": {}
+      },
+      {
+        "id": 5,
+        "title": "QKart - E-Commerce Application",
+        "description": "E-commerce application with authentication, product search, shopping cart, and checkout built during Crio program.",
+        "longDescription": "Built an e-commerce application offering a variety of products. Implemented core logic for authentication, product display and search, shopping cart and checkout. Enhanced UI for responsive design across devices ensuring consistent user experience.",
+        "image": "/projects/qkart.jpg",
+        "technologies": ["React", "React Hooks", "REST APIs", "React Router", "Responsive Design", "Debouncing"],
+        "category": "Skill-up",
+        "featured": false,
+        "links": {
+          "github": "https://github.com/Venkat0629/QTify"
+        }
+      },
+      {
+        "id": 6,
+        "title": "QTify - Audio Streaming Service",
+        "description": "Digital audio streaming platform with modular UI components, genre-based filtering, and API integration.",
+        "longDescription": "Built a digital audio streaming service providing free access to music, podcasts, and curated playlists. Created modular UI components including Cards, Carousels, and Buttons optimized for reusability. Implemented intuitive genre-based song filtering system.",
+        "image": "/projects/qtify.jpg",
+        "technologies": ["ReactJS", "Module-scoped CSS", "Flexbox", "Swiper Library", "API Integration", "React Hooks"],
+        "category": "Skill-up",
+        "featured": false,
+        "links": {
+          "github": "https://github.com/Venkat0629/QTify"
+        }
+      },
+      {
+        "id": 7,
+        "title": "QTrip - Travel Website",
+        "description": "Adventure travel website with multi-select filters, image carousels, and conditional rendering.",
+        "longDescription": "Built a travel website for adventure seekers. Created web pages using HTML and CSS, made them dynamic using JavaScript. Improved UX with multi-select filters, image carousels, and implemented conditional rendering of page elements.",
+        "image": "/projects/qtrip.jpg",
+        "technologies": ["HTML", "CSS", "JavaScript", "REST APIs", "Bootstrap Carousel", "Responsive Design"],
+        "category": "Skill-up",
+        "featured": false,
+        "links": {
+          "github": "https://github.com/Venkat0629/QTripDynamic"
+        }
+      },
+      {
+        "id": 8,
+        "title": "EBook - Spring Microservices App",
+        "description": "Microservices-based e-book management system with CRUD operations and inter-service communication.",
+        "longDescription": "Built a microservices-based e-book management system using Spring Boot. Features include book catalog management, user management, and inter-service communication patterns demonstrating microservices architecture principles.",
+        "image": "/projects/ebook.jpg",
+        "technologies": ["Java", "Spring Boot", "Microservices", "REST APIs", "SQL"],
+        "category": "Personal",
+        "featured": false,
+        "links": {
+          "github": "https://github.com/Venkat0629/EBook"
+        }
+      },
+      {
+        "id": 9,
+        "title": "Cloud Config POC",
+        "description": "Spring Cloud Config Server proof of concept for centralized microservices configuration management.",
+        "longDescription": "Implemented a Spring Cloud Config Server proof of concept demonstrating centralized configuration management for microservices with remote config repository, dynamic property refresh, and environment-specific configurations.",
+        "image": "/projects/cloudconfig.jpg",
+        "technologies": ["Java", "Spring Boot", "Spring Cloud", "Git"],
+        "category": "Personal",
+        "featured": false,
+        "links": {
+          "github": "https://github.com/Venkat0629/CloudConfigPOC"
+        }
+      },
+      {
+        "id": 10,
+        "title": "Kafka Messaging System",
+        "description": "Apache Kafka implementation for event-driven messaging between microservices.",
+        "longDescription": "Built a Kafka-based messaging system demonstrating producer-consumer patterns, topic management, and event-driven architecture for microservices communication.",
+        "image": "/projects/kafka.jpg",
+        "technologies": ["Java", "Apache Kafka", "Spring Boot"],
+        "category": "Personal",
+        "featured": false,
+        "links": {
+          "github": "https://github.com/Venkat0629/Kafka"
+        }
+      },
+      {
+        "id": 11,
+        "title": "ExpensesTracker",
+        "description": "Personal expense tracking application for managing daily finances and budgets.",
+        "longDescription": "Built a personal finance management tool for tracking daily expenses, categorizing spending, and visualizing budget data with expense entry, category management, and spending analytics.",
+        "image": "/projects/expenses-tracker.jpg",
+        "technologies": ["React", "JavaScript", "HTML", "CSS"],
+        "category": "Personal",
+        "featured": false,
+        "links": {
+          "github": "https://github.com/Venkat0629/ExpensesTracker"
+        }
+      },
+      {
+        "id": 12,
+        "title": "XWeatherApp",
+        "description": "Real-time weather application with location-based forecasts and weather data visualization.",
+        "longDescription": "Created a weather application with current conditions, forecasts, and weather data display. Integrated with weather APIs for real-time data and geolocation services.",
+        "image": "/projects/xweather.jpg",
+        "technologies": ["React", "JavaScript", "Weather API", "CSS"],
+        "category": "Personal",
+        "featured": false,
+        "links": {
+          "github": "https://github.com/Venkat0629/XWeatherApp"
+        }
+      },
+      {
+        "id": 13,
+        "title": "LawFirm Website",
+        "description": "Professional website for a law firm with service listings and contact management.",
+        "longDescription": "Built a professional law firm website with service descriptions, attorney profiles, case study showcases, and client contact forms. Focused on professional design and user trust.",
+        "image": "/projects/lawfirm.jpg",
+        "technologies": ["React", "JavaScript", "HTML", "CSS"],
+        "category": "Freelance",
+        "featured": false,
+        "links": {
+          "github": "https://github.com/Venkat0629/LawFirm"
+        }
+      }
+    ]
+  },
+  "certifications": {
+    "title": "Certifications",
+    "subtitle": "Professional certifications & credentials",
+    "items": [
+      {
+        "id": 1,
+        "name": "AWS Certified Cloud Practitioner",
+        "issuer": "Amazon Web Services",
+        "date": "2024",
+        "credentialUrl": "https://www.credly.com/badges/55c422cc-d7f2-433f-bff1-5ed8c7b194a4/linked_in_profile",
+        "logo": "/certs/aws.svg",
+        "category": "Cloud"
+      },
+      {
+        "id": 2,
+        "name": "Oracle Cloud Infrastructure 2025 AI Foundations Associate",
+        "issuer": "Oracle",
+        "date": "2025",
+        "credentialUrl": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=76538C9C7AD121A3B3BD6DF53916BD46F0644FCBF8B662FAF0C93DCCEC552F65",
+        "logo": "/certs/oracle.svg",
+        "category": "Cloud"
+      },
+      {
+        "id": 3,
+        "name": "Microsoft Azure Credential",
+        "issuer": "Microsoft",
+        "date": "2024",
+        "credentialUrl": "https://learn.microsoft.com/en-us/users/manevenkatasai-3710/credentials/123670d2f517c2dd",
+        "logo": "/certs/microsoft.svg",
+        "category": "Cloud"
+      },
+      {
+        "id": 4,
+        "name": "Software Engineer",
+        "issuer": "HackerRank",
+        "date": "2024",
+        "credentialUrl": "https://www.hackerrank.com/certificates/dbebbb969753",
+        "logo": "/certs/hackerrank.svg",
+        "category": "Developer"
+      },
+      {
+        "id": 5,
+        "name": "REST API (Intermediate)",
+        "issuer": "HackerRank",
+        "date": "2024",
+        "credentialUrl": "https://www.hackerrank.com/certificates/da1c13144310",
+        "logo": "/certs/hackerrank.svg",
+        "category": "Developer"
+      },
+      {
+        "id": 6,
+        "name": "Java (Basic)",
+        "issuer": "HackerRank",
+        "date": "2024",
+        "credentialUrl": "https://www.hackerrank.com/certificates/87f20077efe9",
+        "logo": "/certs/hackerrank.svg",
+        "category": "Developer"
+      },
+      {
+        "id": 7,
+        "name": "JavaScript (Basic)",
+        "issuer": "HackerRank",
+        "date": "2024",
+        "credentialUrl": "https://www.hackerrank.com/certificates/a8594e9c6002",
+        "logo": "/certs/hackerrank.svg",
+        "category": "Developer"
+      },
+      {
+        "id": 8,
+        "name": "Problem Solving (Basic)",
+        "issuer": "HackerRank",
+        "date": "2024",
+        "credentialUrl": "https://www.hackerrank.com/certificates/03902b1d654f",
+        "logo": "/certs/hackerrank.svg",
+        "category": "Developer"
+      },
+      {
+        "id": 9,
+        "name": "Impact Day 2025",
+        "issuer": "Deloitte",
+        "date": "2025",
+        "credentialUrl": "https://www.credly.com/badges/ee082b4c-d50d-44f4-976c-2a275d8654d3/linked_in_profile",
+        "logo": "/certs/deloitte.png",
+        "category": "Community"
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "subtitle": "Academic background",
+    "items": [
+      {
+        "id": 1,
+        "institution": "Vignan's Lara Institute of Technology & Science",
+        "degree": "Bachelor of Technology",
+        "field": "Mechanical Engineering",
+        "location": "Guntur, Andhra Pradesh",
+        "startDate": "2017",
+        "endDate": "2021",
+        "grade": "8.2 CGPA",
+        "type": "Graduation"
+      },
+      {
+        "id": 2,
+        "institution": "Crio.Do",
+        "degree": "Full Stack Development Program",
+        "field": "Software Development",
+        "location": "Remote",
+        "startDate": "2023",
+        "endDate": "2024",
+        "grade": "Verified Graduate",
+        "type": "Professional Skill-up"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Let's work together",
+    "description": "I'm a Software Developer with 4 years of experience across e-commerce, logistics, and cloud infrastructure domains. Always open to interesting projects, collaborations, and new opportunities. Feel free to reach out!",
+    "formFields": {
+      "name": { "label": "Your Name", "placeholder": "Your Name", "required": true },
+      "email": { "label": "Your Email", "placeholder": "your@email.com", "required": true },
+      "subject": { "label": "Subject", "placeholder": "Project Inquiry", "required": true },
+      "message": { "label": "Message", "placeholder": "Tell me about your project or idea...", "required": true }
+    },
+    "submitText": "Send Message",
+    "successMessage": "Thank you for your message! I'll get back to you within 24 hours.",
+    "errorMessage": "Oops! Something went wrong. Please try again or email me directly."
+  },
+  "footer": {
+    "copyright": "© 2025 Veera Venkata Sai Mane. All rights reserved.",
+    "tagline": "Software Developer | Java Full Stack | Spring Boot | React"
+  },
+  "theme": {
+    "defaultMode": "dark",
+    "primaryColor": "#0ea5e9",
+    "accentColor": "#d946ef"
+  },
+  "navigation": [
+    { "name": "Home", "href": "#hero" },
+    { "name": "About", "href": "#about" },
+    { "name": "Skills", "href": "#skills" },
+    { "name": "Experience", "href": "#experience" },
+    { "name": "Projects", "href": "#projects" },
+    { "name": "Certifications", "href": "#certifications" },
+    { "name": "Contributions", "href": "#github-contributions" },
+    { "name": "Contact", "href": "#contact" }
+  ]
+}
