@@ -41,7 +41,7 @@ export function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <motion.div variants={staggerItem}>
               <p className="text-gray-600 dark:text-gray-400 mb-6 max-w-md">
-                {footer.tagline}
+                {'Let us connect and create something meaningful together.'}
               </p>
               <div className="flex items-center gap-3">
                 {socialLinks.map(([platform, url]) => {

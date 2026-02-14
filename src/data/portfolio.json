@@ -53,7 +53,7 @@
     "description": [
       "I'm Veera Venkata Sai Mane, a Software Developer based in Hyderabad with 4 years of professional experience across e-commerce, logistics, and cloud infrastructure enterprise domains.",
       "My expertise spans backend development with Java and Spring Boot microservices, frontend development with React and Angular, and cloud deployments on AWS and Azure with Docker and Kubernetes. I'm experienced in implementing CI/CD pipelines, automating workflows with Ansible, and integrating enterprise tools like ServiceNow, OpenStack, and Kafka.",
-      "I've built logistics portals, e-commerce platforms like VibeCart, collaborative shopping features for Williams-Sonoma, and the Polycloud Platform — improving cloud resource management by 60% and reducing server provisioning time by 85%."
+      "I have hands-on experience delivering logistics management solutions, enhancing e-commerce products, building cloud-native business applications, and driving end-to-end product feature development focused on user and operational impact."
     ],
     "highlights": [
       "4+ years of hands-on enterprise development",
@@ -111,7 +111,9 @@
           { "name": "PostgreSQL", "level": 85 },
           { "name": "MongoDB", "level": 78 },
           { "name": "Oracle", "level": 80 },
-          { "name": "Git/JIRA", "level": 90 },
+          { "name": "Git", "level": 90 },
+          { "name": "JIRA", "level": 88 },
+          { "name": "Cassandra", "level": 75 },
           { "name": "Kafka", "level": 80 }
         ]
       }
@@ -377,7 +379,7 @@
       },
       {
         "id": 3,
-        "name": "Microsoft Azure Credential",
+        "name": "Microsoft Azure Fundamentals",
         "issuer": "Microsoft",
         "date": "2024",
         "credentialUrl": "https://learn.microsoft.com/en-us/users/manevenkatasai-3710/credentials/123670d2f517c2dd",
@@ -386,6 +388,15 @@
       },
       {
         "id": 4,
+        "name": "Microsoft Azure AI Fundamentals",
+        "issuer": "Microsoft",
+        "date": "2026",
+        "credentialUrl": "https://learn.microsoft.com/en-us/users/veeramane-1794/credentials/22cdff07ca770360",
+        "logo": "/certs/microsoft.svg",
+        "category": "AI"
+      },
+      {
+        "id": 5,
         "name": "Software Engineer",
         "issuer": "HackerRank",
         "date": "2024",
@@ -394,7 +405,7 @@
         "category": "Developer"
       },
       {
-        "id": 5,
+        "id": 6,
         "name": "REST API (Intermediate)",
         "issuer": "HackerRank",
         "date": "2024",
@@ -403,7 +414,7 @@
         "category": "Developer"
       },
       {
-        "id": 6,
+        "id": 7,
         "name": "Java (Basic)",
         "issuer": "HackerRank",
         "date": "2024",
@@ -412,7 +423,7 @@
         "category": "Developer"
       },
       {
-        "id": 7,
+        "id": 8,
         "name": "JavaScript (Basic)",
         "issuer": "HackerRank",
         "date": "2024",
@@ -421,7 +432,7 @@
         "category": "Developer"
       },
       {
-        "id": 8,
+        "id": 9,
         "name": "Problem Solving (Basic)",
         "issuer": "HackerRank",
         "date": "2024",
@@ -430,7 +441,7 @@
         "category": "Developer"
       },
       {
-        "id": 9,
+        "id": 10,
         "name": "Impact Day 2025",
         "issuer": "Deloitte",
         "date": "2025",
@@ -502,6 +513,15 @@
     { "name": "Contact", "href": "#contact" }
   ]
 }
+
+
+
+
+
+
+
+
+
 
 
 
