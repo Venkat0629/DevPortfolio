@@ -58,11 +58,25 @@ The contact form sends email via EmailJS. Configure it once:
    - `{{message}}`
 3. Copy `.env.example` to `.env` and set:
    - `VITE_EMAILJS_SERVICE_ID`
-   - `VITE_EMAILJS_TEMPLATE_ID`
+   - `VITE_EMAILJS_CONTACT_TEMPLATE_ID` (contact enquiry email to site owner)
+   - `VITE_EMAILJS_ACK_TEMPLATE_ID` (optional, thank-you acknowledgement to sender)
    - `VITE_EMAILJS_PUBLIC_KEY`
 4. Restart the dev server after updating `.env`.
 
 If these env values are missing, submit will fail and show an error toast.
+If `VITE_EMAILJS_ACK_TEMPLATE_ID` is set, the form also sends an acknowledgement email to the visitor.
+
+Legacy fallback keys still supported: `VITE_EMAILJS_TEMPLATE_ID`, `VITE_EMAILJS_AUTOREPLY_TEMPLATE_ID`.
+
+Template variables available to both templates:
+- `{{from_name}}` / `{{visitor_name}}`
+- `{{from_email}}` / `{{visitor_email}}`
+- `{{to_email}}`
+- `{{reply_to}}`
+- `{{subject}}` / `{{original_subject}}`
+- `{{message}}` / `{{original_message}}`
+- `{{portfolio_url}}`
+- `{{contact_page_url}}`
 
 ## Customization
 

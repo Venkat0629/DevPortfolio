@@ -5,7 +5,7 @@ import { usePortfolio } from '@/context/PortfolioContext';
 import { Section, Card, CardContent, Button, Input, Textarea, useToast } from '@/components/ui';
 import { fadeInLeft, fadeInRight } from '@/lib/animations';
 import { useScrollReveal } from '@/hooks/useScrollReveal';
-import { isEmailDeliveryConfigured, sendContactEmail } from '@/lib/contactEmail';
+import { isEmailDeliveryConfigured, sendAutoReplyEmail, sendContactEmail } from '@/lib/contactEmail';
 
 interface FormData {
   name: string;
@@ -74,12 +74,31 @@ export function Contact() {
         throw new Error('Email delivery is not configured.');
       }
 
+      const name = formData.name.trim();
+      const email = formData.email.trim();
+      const subject = formData.subject.trim();
+      const message = formData.message.trim();
+      const origin = window.location.origin;
+
       await sendContactEmail({
-        name: formData.name.trim(),
-        email: formData.email.trim(),
+        name,
+        email,
         recipientEmail: personal.email,
-        subject: formData.subject.trim(),
-        message: formData.message.trim(),
+        subject,
+        message,
+        portfolioUrl: origin,
+        contactPageUrl: `${origin}/#contact`,
+      });
+
+      // Auto-reply is optional and sent only when a dedicated template ID is configured.
+      await sendAutoReplyEmail({
+        name,
+        email,
+        recipientEmail: email,
+        subject,
+        message,
+        portfolioUrl: origin,
+        contactPageUrl: `${origin}/#contact`,
       });
 
       addToast({
