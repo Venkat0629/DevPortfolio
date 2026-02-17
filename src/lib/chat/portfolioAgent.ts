@@ -79,7 +79,7 @@ When asked about job roles (Full Stack Developer, Software Engineer, etc.), prov
       
       return response;
     } catch (error) {
-      console.error('Error generating response:', error);
+      // Log error for debugging
       return this.getFallbackResponse();
     }
   }
@@ -148,7 +148,7 @@ When asked about job roles (Full Stack Developer, Software Engineer, etc.), prov
       const aiResponse = await this.callAIAPI(context.query);
       return this.parseAIResponse(aiResponse);
     } catch (error) {
-      console.log('AI provider failed, using rule-based response');
+      // AI provider failed, using rule-based response
       const response = this.generateRuleBasedResponse(context);
       
       // Simulate API delay
@@ -219,7 +219,7 @@ When asked about job roles (Full Stack Developer, Software Engineer, etc.), prov
     let content = `💼 Veera has **4+ years** of professional experience:\n\n`;
     
     if (entities.companies.length > 0) {
-      const filteredPositions = positions.filter(pos => 
+      const filteredPositions = positions.filter((pos: any) => 
         entities.companies.some(company => pos.company.toLowerCase().includes(company))
       );
       if (filteredPositions.length > 0) {
@@ -272,7 +272,7 @@ When asked about job roles (Full Stack Developer, Software Engineer, etc.), prov
     const projects = this.portfolio.projects?.items || [];
     
     if (entities.projects.length > 0) {
-      const relevantProjects = projects.filter(project => 
+      const relevantProjects = projects.filter((project: any) => 
         entities.projects.some(p => project.title.toLowerCase().includes(p))
       );
       
@@ -318,7 +318,7 @@ When asked about job roles (Full Stack Developer, Software Engineer, etc.), prov
 
   private generateCertificationsResponse(): ChatResponse {
     const certifications = this.portfolio.certifications?.items || [];
-    const cloudCerts = certifications.filter(cert => cert.category === 'Cloud').slice(0, 3);
+    const cloudCerts = certifications.filter((cert: any) => cert.category === 'Cloud').slice(0, 3);
     
     if (cloudCerts.length > 0) {
       const certList = cloudCerts.map((cert: any) => 

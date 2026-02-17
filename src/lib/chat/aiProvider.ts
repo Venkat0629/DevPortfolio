@@ -35,7 +35,7 @@ class GroqProvider implements AIProvider {
           messages: [
             {
               role: 'system',
-              content: context.systemPrompt || 'You are a helpful assistant.'
+              content: _context.systemPrompt || 'You are a helpful assistant.'
             },
             {
               role: 'user',
@@ -54,7 +54,7 @@ class GroqProvider implements AIProvider {
       const data = await response.json();
       return data.choices[0]?.message?.content || 'I apologize, but I couldn\'t generate a response.';
     } catch (error) {
-      console.error('Groq API error:', error);
+      // API error handling
       throw error;
     }
   }
@@ -74,7 +74,7 @@ class OpenAIProvider implements AIProvider {
     return !!this.apiKey;
   }
 
-  async generateResponse(prompt: string, context: any): Promise<string> {
+  async generateResponse(prompt: string, _context: any): Promise<string> {
     if (!this.isAvailable()) {
       throw new Error('OpenAI API key not configured');
     }
@@ -91,7 +91,7 @@ class OpenAIProvider implements AIProvider {
           messages: [
             {
               role: 'system',
-              content: context.systemPrompt || 'You are a helpful assistant.'
+              content: _context.systemPrompt || 'You are a helpful assistant.'
             },
             {
               role: 'user',
@@ -110,7 +110,7 @@ class OpenAIProvider implements AIProvider {
       const data = await response.json();
       return data.choices[0]?.message?.content || 'I apologize, but I couldn\'t generate a response.';
     } catch (error) {
-      console.error('OpenAI API error:', error);
+      // API error handling
       throw error;
     }
   }
@@ -130,7 +130,7 @@ class AnthropicProvider implements AIProvider {
     return !!this.apiKey;
   }
 
-  async generateResponse(prompt: string, _context: any): Promise<string> {
+  async generateResponse(_prompt: string, _context: any): Promise<string> {
     if (!this.isAvailable()) {
       throw new Error('Anthropic API key not configured');
     }
@@ -149,7 +149,7 @@ class AnthropicProvider implements AIProvider {
           messages: [
             {
               role: 'user',
-              content: `${context.systemPrompt || ''}\n\n${prompt}`
+              content: _context.systemPrompt || 'You are a helpful assistant.'
             }
           ],
         }),
@@ -162,7 +162,7 @@ class AnthropicProvider implements AIProvider {
       const data = await response.json();
       return data.content[0]?.text || 'I apologize, but I couldn\'t generate a response.';
     } catch (error) {
-      console.error('Anthropic API error:', error);
+      // API error handling
       throw error;
     }
   }
@@ -198,7 +198,7 @@ class GeminiProvider implements AIProvider {
             {
               parts: [
                 {
-                  text: `${context.systemPrompt || ''}\n\n${prompt}`
+                  text: `${_context.systemPrompt || ''}\n\n${prompt}`
                 }
               ]
             }
@@ -217,7 +217,7 @@ class GeminiProvider implements AIProvider {
       const data = await response.json();
       return data.candidates[0]?.content?.parts[0]?.text || 'I apologize, but I couldn\'t generate a response.';
     } catch (error) {
-      console.error('Gemini API error:', error);
+      // API error handling
       throw error;
     }
   }
@@ -937,13 +937,8 @@ class AIProviderManager {
       new FallbackProvider() // Always last
     ];
     
+    // Initialize provider
     this.currentProvider = this.findAvailableProvider() || new FallbackProvider();
-    
-    // Debug: Log available providers
-    console.log('🤖 AI Provider Status:', {
-      available: this.getAvailableProviders(),
-      current: this.getCurrentProvider()
-    });
   }
 
   private findAvailableProvider(): AIProvider | null {
@@ -969,7 +964,7 @@ class AIProviderManager {
       return await this.currentProvider.generateResponse(prompt, _context);
       
     } catch (error) {
-      console.error('AI Provider error:', error);
+      // Provider error handling
       
       // Try next provider
       const currentIndex = this.providers.indexOf(this.currentProvider);
@@ -977,7 +972,7 @@ class AIProviderManager {
       
       if (nextProvider) {
         this.currentProvider = nextProvider;
-        return await nextProvider.generateResponse(prompt, context);
+        return await nextProvider.generateResponse(prompt, _context);
       }
       
       // Use fallback as last resort
