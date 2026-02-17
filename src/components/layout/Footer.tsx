@@ -1,10 +1,11 @@
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { Github, Linkedin, Twitter, Instagram, Dribbble, Youtube, ArrowUp } from 'lucide-react';
 import { HackerRankIcon } from '@/components/icons/HackerRankIcon';
 import { CrioIcon } from '@/components/icons/CrioIcon';
 import { usePortfolio } from '@/context/PortfolioContext';
 import { fadeInUp, staggerContainer, staggerItem } from '@/lib/animations';
 import { useScrollReveal } from '@/hooks/useScrollReveal';
+import { useState, useEffect } from 'react';
 
 const socialIcons: Record<string, React.ComponentType<React.SVGProps<SVGSVGElement>>> = {
   github: Github,
@@ -20,10 +21,20 @@ const socialIcons: Record<string, React.ComponentType<React.SVGProps<SVGSVGEleme
 export function Footer() {
   const { footer, social, navigation } = usePortfolio();
   const { ref, isVisible } = useScrollReveal();
+  const [showScrollTop, setShowScrollTop] = useState(false);
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowScrollTop(window.scrollY > 300);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const socialLinks = Object.entries(social).filter(([, url]) => url);
 
@@ -100,17 +111,22 @@ export function Footer() {
         </motion.div>
       </div>
 
-      <motion.button
-        onClick={scrollToTop}
-        className="fixed bottom-6 right-6 p-3 rounded-xl bg-primary-500 text-white shadow-lg shadow-primary-500/25 hover:shadow-primary-500/40 hover:bg-primary-600 transition-all duration-200 z-30"
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.9 }}
-        aria-label="Scroll to top"
-      >
-        <ArrowUp className="w-5 h-5" />
-      </motion.button>
+      <AnimatePresence>
+        {showScrollTop && (
+          <motion.button
+            onClick={scrollToTop}
+            className="fixed bottom-20 right-6 p-3 rounded-xl bg-primary-500 text-white shadow-lg shadow-primary-500/25 hover:shadow-primary-500/40 hover:bg-primary-600 transition-all duration-200 z-30"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 20 }}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            aria-label="Scroll to top"
+          >
+            <ArrowUp className="w-5 h-5" />
+          </motion.button>
+        )}
+      </AnimatePresence>
     </footer>
   );
 }

@@ -57,7 +57,6 @@ const GithubContributions: React.FC<GithubContributionsProps> = ({
           throw new Error('Invalid API response format');
         }
       } catch (err) {
-        console.error('Error fetching GitHub contributions:', err);
         setError('Unable to load live GitHub contributions.');
         setAllContributions([]);
       } finally {

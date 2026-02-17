@@ -27,3 +27,38 @@ dist-ssr
 .env
 .env.*
 !.env.example
+
+# Chat API Keys (keep sample files)
+.env.local
+.env.development
+.env.production
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+.parcel-cache/
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Build artifacts
+build/
+out/
+
+# Dependency directories
+.pnp
+.pnp.js
+
+# Testing
+.nyc_output
+junit.xml
+
+# AI Provider Config (keep samples)
+ai-config.json
+ai-secrets.json
