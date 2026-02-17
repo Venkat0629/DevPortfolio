@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { MessageCircle, X, Send, Bot, User, Loader2 } from 'lucide-react';
+import { MessageCircle, X, Send, Bot, User, Loader2, Volume2, VolumeX } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { portfolioAgent } from '@/lib/chat';
 import type { Message, ChatWidgetProps } from '@/lib/chat';
@@ -11,8 +11,62 @@ export function ChatWidget({ className }: ChatWidgetProps) {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
+  const [hasShownWelcome, setHasShownWelcome] = useState(false);
+  const [soundEnabled, setSoundEnabled] = useState(true);
+  const [showWelcomeNotification, setShowWelcomeNotification] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLTextAreaElement>(null);
+
+  // Play notification sound
+  const playSound = () => {
+    if (!soundEnabled) return;
+    
+    try {
+      // Create a more audible notification sound using Web Audio API
+      const audioContext = new (window.AudioContext || (window as any).webkitAudioContext)();
+      const oscillator = audioContext.createOscillator();
+      const gainNode = audioContext.createGain();
+      
+      oscillator.connect(gainNode);
+      gainNode.connect(audioContext.destination);
+      
+      // Create a more noticeable sound pattern
+      oscillator.frequency.setValueAtTime(600, audioContext.currentTime);
+      oscillator.frequency.exponentialRampToValueAtTime(800, audioContext.currentTime + 0.1);
+      oscillator.type = 'sine';
+      
+      gainNode.gain.setValueAtTime(0.4, audioContext.currentTime);
+      gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.3);
+      
+      oscillator.start(audioContext.currentTime);
+      oscillator.stop(audioContext.currentTime + 0.3);
+    } catch (error) {
+      // Fallback: try to create a simple beep
+      try {
+        const audio = new Audio('data:audio/wav;base64,UklGRnoGAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQoGAACBhYqFbF1fdJivrJBhNjVgodDbq2EcBj+a2/LDciUFLIHO8tiJNwgZaLvt559NEAxQp+PwtmMcBjiR1/LMeSwFJHfH8N2QQAoUXrTp66hVFApGn+DyvmwhBSuBzvLZiTYIG2m98OScTgwOUarm7blmGgU7k9n1unEiBC13yO/eizEIHWq+8+OWT');
+        audio.volume = 0.3;
+        audio.play().catch(() => {});
+      } catch (e) {
+        // Silent fail if audio is not supported
+      }
+    }
+  };
+
+  // Show welcome message on component mount
+  useEffect(() => {
+    if (!hasShownWelcome) {
+      const timer = setTimeout(() => {
+        setShowWelcomeNotification(true);
+        setHasShownWelcome(true);
+        playSound();
+        
+        // Auto-hide notification after 5 seconds
+        setTimeout(() => setShowWelcomeNotification(false), 5000);
+      }, 2000); // Show after 2 seconds
+      
+      return () => clearTimeout(timer);
+    }
+  }, [hasShownWelcome, soundEnabled]);
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -130,6 +184,7 @@ export function ChatWidget({ className }: ChatWidgetProps) {
         timestamp: new Date(),
       };
       setMessages(prev => [...prev, assistantMessage]);
+      playSound(); // Play sound for new message
     } catch (error) {
       const errorMessage: Message = {
         id: (Date.now() + 1).toString(),
@@ -152,21 +207,104 @@ export function ChatWidget({ className }: ChatWidgetProps) {
 
   return (
     <div className={cn("fixed bottom-4 right-4 z-50", className)}>
+      {/* Welcome Toast Notification */}
+      <AnimatePresence>
+        {showWelcomeNotification && (
+          <motion.div
+            initial={{ opacity: 0, y: 50, scale: 0.3 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, y: 50, scale: 0.3 }}
+            transition={{ 
+              type: "spring", 
+              stiffness: 500, 
+              damping: 28,
+              mass: 0.8
+            }}
+            className="absolute bottom-24 right-0 flex items-start gap-3 cursor-pointer group"
+            onClick={() => {
+              setShowWelcomeNotification(false);
+              setIsOpen(true);
+            }}
+          >
+            {/* Avatar */}
+            <div className="relative">
+              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center shadow-lg">
+                <Bot className="w-5 h-5 text-white" />
+              </div>
+              {/* Online indicator */}
+              <div className="absolute -bottom-1 -right-1 w-4 h-4 bg-green-500 rounded-full border-2 border-white dark:border-gray-900 flex items-center justify-center">
+                <div className="w-2 h-2 bg-white rounded-full"></div>
+              </div>
+            </div>
+            
+            {/* Message bubble */}
+            <div className="relative">
+              <div className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl rounded-tl-none shadow-xl p-3 min-w-[200px] max-w-[280px]">
+                <div className="flex items-center justify-between mb-1">
+                  <span className="text-xs font-semibold text-gray-900 dark:text-white">Lumi</span>
+                  <span className="text-xs text-gray-500 dark:text-gray-400">Just now</span>
+                </div>
+                <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
+                  Hey! 👋 I'm here to help you explore Veera's portfolio. Want to chat?
+                </p>
+                <div className="mt-2 flex items-center gap-2">
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setShowWelcomeNotification(false);
+                      setIsOpen(true);
+                    }}
+                    className="flex-1 bg-blue-500 hover:bg-blue-600 text-white text-xs px-3 py-1.5 rounded-lg transition-colors font-medium"
+                  >
+                    Start chat
+                  </button>
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setShowWelcomeNotification(false);
+                    }}
+                    className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 text-xs p-1"
+                  >
+                    <X className="w-3 h-3" />
+                  </button>
+                </div>
+              </div>
+              
+              {/* Bubble tail */}
+              <div className="absolute -left-2 top-0 w-0 h-0 border-t-8 border-t-transparent border-r-8 border-r-white dark:border-r-gray-800 border-b-8 border-b-transparent"></div>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
       {/* Chat Button */}
       <AnimatePresence>
         {!isOpen && (
           <motion.button
             initial={{ scale: 0, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
+            animate={{ 
+              scale: showWelcomeNotification ? [1, 1.1, 1] : 1,
+              opacity: 1 
+            }}
             exit={{ scale: 0, opacity: 0 }}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            transition={{ 
+              scale: showWelcomeNotification ? {
+                repeat: Infinity,
+                duration: 2,
+                ease: "easeInOut"
+              } : {}
+            }}
             onClick={() => setIsOpen(true)}
             className="bg-primary-500 hover:bg-primary-600 text-white rounded-full p-4 shadow-lg shadow-primary-500/25 transition-all duration-200"
             aria-label="Open Lumi chat"
             title="Lumi - Professional portfolio guide"
           >
             <MessageCircle className="w-6 h-6" />
+            {showWelcomeNotification && (
+              <div className="absolute -top-1 -right-1 w-3 h-3 bg-red-500 rounded-full animate-ping"></div>
+            )}
           </motion.button>
         )}
       </AnimatePresence>
@@ -190,13 +328,23 @@ export function ChatWidget({ className }: ChatWidgetProps) {
                   <p className="text-xs text-primary-100">Professional portfolio guide</p>
                 </div>
               </div>
-              <button
-                onClick={() => setIsOpen(false)}
-                className="hover:bg-primary-600 rounded-full p-1 transition-colors"
-                aria-label="Close chat"
-              >
-                <X className="w-4 h-4" />
-              </button>
+              <div className="flex items-center gap-2">
+                <button
+                  onClick={() => setSoundEnabled(!soundEnabled)}
+                  className="hover:bg-primary-600 rounded-full p-1 transition-colors"
+                  aria-label={soundEnabled ? "Mute sound" : "Enable sound"}
+                  title={soundEnabled ? "Mute notifications" : "Enable notifications"}
+                >
+                  {soundEnabled ? <Volume2 className="w-4 h-4" /> : <VolumeX className="w-4 h-4" />}
+                </button>
+                <button
+                  onClick={() => setIsOpen(false)}
+                  className="hover:bg-primary-600 rounded-full p-1 transition-colors"
+                  aria-label="Close chat"
+                >
+                  <X className="w-4 h-4" />
+                </button>
+              </div>
             </div>
 
             {/* Messages */}
