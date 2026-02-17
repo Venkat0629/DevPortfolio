@@ -1,0 +1,1201 @@
+id,category,question
+1,Skills & Tech Stack,What frontend frameworks have you used? (STAR format)
+2,Achievements & Impact,Have you mentored juniors or led a guild? (focus on numbers)
+3,Behavioral & Soft Skills,How do you handle scope creep? (focus on numbers)
+4,Role/Company Fit & Match Score,What gaps would you close to excel as a ML Engineer?
+5,Experience & Projects,How do you internationalize/localize applications? (detail your role)
+6,Profile/Bio,How do teammates describe you? (focus on numbers)
+7,Education,Where did you study B.Tech in Computer Science?
+8,Compensation,What is your minimum acceptable offer?
+9,Experience & Projects,What metrics (KPIs/OKRs) did your work move? (STAR format)
+10,Experience & Projects,How do you estimate and plan sprints? (detail your role)
+11,Education,What thesis or capstone did you complete?
+12,Experience & Projects,How do you internationalize/localize applications? (keep it under 60 seconds)
+13,Experience & Projects,How large was the team and what was the timeline? (please be concise)
+14,Profile/Bio,How do you stay up to date with technology? (detail your role)
+15,Experience & Projects,How did you measure success for real-time analytics system? (STAR format)
+16,Experience & Projects,Give an example of cross-team collaboration. (STAR format)
+17,Profile/Bio,How do teammates describe you? (keep it under 60 seconds)
+18,Skills & Tech Stack,What is your approach to code reviews? (detail your role)
+19,Skills & Tech Stack,Have you built real-time systems (WebSockets/streaming)? (detail your role)
+20,Skills & Tech Stack,How do you ensure data quality? (STAR format)
+21,Skills & Tech Stack,Self-assess your proficiency in your proficiency in React.
+22,Role/Company Fit & Match Score,What risks should the hiring team be aware of?
+23,Skills & Tech Stack,Do you have experience with microservices? (please be concise)
+24,Role/Company Fit & Match Score,What domains make you a strong fit here?
+25,Role/Company Fit & Match Score,Explain why you're a strong fit for the Solution Architect role.
+26,Role/Company Fit & Match Score,What evidence supports your fit for {ROLE}?
+27,Skills & Tech Stack,How would you rate your proficiency in MongoDB.
+28,Experience & Projects,Describe a feature you took from idea to production. (detail your role)
+29,Profile/Bio,What industries have you contributed to? (keep it under 60 seconds)
+30,Skills & Tech Stack,What's your level in your proficiency in GraphQL.
+31,Compensation,How do you evaluate total compensation?
+32,Role/Company Fit & Match Score,Why this company and why now?
+33,Career Gaps,Were there any personal projects during the gap? (focus on numbers)
+34,Profile/Bio,What's a quick overview of your professional background? (please be concise)
+35,Experience & Projects,What were the biggest challenges in {PROJECT}? (please be concise)
+36,Education,What extracurriculars built relevant skills? (STAR format)
+37,Profile/Bio,What problems do you love solving? (please be concise)
+38,Skills & Tech Stack,What CI/CD tools have you worked with? (detail your role)
+39,Skills & Tech Stack,What CI/CD tools have you worked with?
+40,Experience & Projects,How do you ensure maintainability and scalability? (STAR format)
+41,Education,Any hackathons or competitions you participated in? (please be concise)
+42,Certifications,Why did you choose to certify in {TECH}? (STAR format)
+43,Experience & Projects,What did you learn from a failed experiment? (please be concise)
+44,Role/Company Fit & Match Score,Map your skills to the Data Engineer job description.
+45,Skills & Tech Stack,What CI/CD tools have you worked with? (please be concise)
+46,Skills & Tech Stack,"Have you implemented Infrastructure as Code (e.g., Terraform)? (please be concise)"
+47,Experience & Projects,What was your contribution to architecture decisions? (focus on numbers)
+48,Profile/Bio,What roles are you currently targeting? (detail your role)
+49,Skills & Tech Stack,Have you worked with message queues like Kafka or RabbitMQ? (please be concise)
+50,Profile/Bio,What motivates you at work? (focus on numbers)
+51,Behavioral & Soft Skills,How do you handle scope creep?
+52,Experience & Projects,What would you do differently in payment gateway integration? (focus on numbers)
+53,Education,What was your specialization? (focus on numbers)
+54,Skills & Tech Stack,What's your level in your proficiency in Tableau.
+55,Role/Company Fit & Match Score,Give a 90-day plan for succeeding as a DevOps Engineer.
+56,Experience & Projects,Describe a feature you took from idea to production. (focus on numbers)
+57,Certifications,Why did you choose to certify in Redis? (focus on numbers)
+58,Experience & Projects,Describe your contribution to the real-time analytics system.
+59,Career Gaps,Did you upskill or freelance during the gap? (focus on numbers)
+60,Education,What academic projects are relevant to your roles? (detail your role)
+61,Education,Do you mentor or teach others? (focus on numbers)
+62,Profile/Bio,What motivates you at work? (keep it under 60 seconds)
+63,Profile/Bio,What are your long-term career aspirations? (STAR format)
+64,Experience & Projects,What would you refactor if you revisited the data warehouse modernization?
+65,Skills & Tech Stack,Rate your proficiency in Python. (detail your role)
+66,Career Gaps,How do you explain your career break from Jan 2022 to Aug 2022? (keep it under 60 seconds)
+67,Experience & Projects,What performance improvements did you achieve?
+68,Education,Have you published papers or blogs? (focus on numbers)
+69,Behavioral & Soft Skills,Describe a failure and what you learned. (focus on numbers)
+70,Profile/Bio,Give a brief bio of Veera Mane. (keep it under 60 seconds)
+71,Portfolio & Repos,Share links to notable pull requests or issues.
+72,Experience & Projects,How do you estimate and plan sprints?
+73,Experience & Projects,Describe your contribution to the ML-based recommendation engine.
+74,Skills & Tech Stack,What's your level in your proficiency in FastAPI.
+75,Behavioral & Soft Skills,Describe a failure and what you learned. (detail your role)
+76,Skills & Tech Stack,"Have you implemented Infrastructure as Code (e.g., Terraform)? (STAR format)"
+77,Profile/Bio,Give a brief bio of {NAME}.
+78,Experience & Projects,How do you sunset legacy systems safely? (focus on numbers)
+79,Profile/Bio,How do you handle feedback? (please be concise)
+80,Skills & Tech Stack,What's your level in your proficiency in PyTorch.
+81,Profile/Bio,Elevator pitch: who are you and what do you do? (please be concise)
+82,Skills & Tech Stack,How do you approach performance optimization? (detail your role)
+83,Certifications,What was the most challenging certification? (STAR format)
+84,Experience & Projects,Which metrics improved due to the real-time analytics system?
+85,Experience & Projects,What was your role in the {PROJECT} project?
+86,Skills & Tech Stack,What frontend frameworks have you used? (detail your role)
+87,Role/Company Fit & Match Score,Map your skills to the SRE job description.
+88,Profile/Bio,What is your unique value proposition? (STAR format)
+89,Role/Company Fit & Match Score,Explain why you're a strong fit for the DevOps Engineer role.
+90,Certifications,Which certification are you planning next? (STAR format)
+91,Skills & Tech Stack,What is your experience with testing frameworks? (detail your role)
+92,Skills & Tech Stack,Briefly describe your core proficiencies and technology stack.
+93,Behavioral & Soft Skills,How do you handle tight deadlines? (please be concise)
+94,Profile/Bio,Tell me about Veera Mane.
+95,Profile/Bio,How would you describe yourself in one paragraph?
+96,Experience & Projects,How do you estimate and plan sprints? (please be concise)
+97,Profile/Bio,What problems do you love solving?
+98,Experience & Projects,What trade-offs did you make and why? (please be concise)
+99,Skills & Tech Stack,What backend frameworks have you used? (detail your role)
+100,Experience & Projects,What was your role in the API platform project? (STAR format)
+101,Experience & Projects,What would you refactor if you revisited the API platform?
+102,Learning & Growth,What side projects are for learning?
+103,Certifications,How have certifications helped you at work? (keep it under 60 seconds)
+104,Education,What thesis or capstone did you complete? (please be concise)
+105,Experience & Projects,How do you handle requirement changes mid-project? (please be concise)
+106,Behavioral & Soft Skills,Describe a time you influenced without authority. (please be concise)
+107,Role/Company Fit & Match Score,"On a 0–100 scale, what's your match score for Backend Engineer?"
+108,Behavioral & Soft Skills,How do you manage up? (focus on numbers)
+109,Skills & Tech Stack,Have you worked with message queues like Kafka or RabbitMQ?
+110,Education,Have you completed online courses or MOOCs? (detail your role)
+111,Experience & Projects,How do you ensure accessibility in your products?
+112,Profile/Bio,Are you open to remote or hybrid roles?
+113,Education,Did you receive any academic awards? (keep it under 60 seconds)
+114,Experience & Projects,How did you ensure reliability and uptime? (focus on numbers)
+115,Role/Company Fit & Match Score,Give a 90-day plan for succeeding as a Backend Engineer.
+116,Behavioral & Soft Skills,Describe a failure and what you learned. (STAR format)
+117,Skills & Tech Stack,How would you rate your proficiency in Git.
+118,Career Gaps,Do you have any career gaps? (please be concise)
+119,Profile/Bio,What roles are you currently targeting? (keep it under 60 seconds)
+120,Career Gaps,What did you do during your gap to stay current? (focus on numbers)
+121,Skills & Tech Stack,Have you built real-time systems (WebSockets/streaming)? (please be concise)
+122,Experience & Projects,Describe a time you optimized cost or latency. (STAR format)
+123,Experience & Projects,Give an example of cross-team collaboration.
+124,Profile/Bio,What problems do you love solving? (detail your role)
+125,Education,Any hackathons or competitions you participated in? (keep it under 60 seconds)
+126,Profile/Bio,Are you open to remote or hybrid roles? (detail your role)
+127,Skills & Tech Stack,What is your core tech stack? (please be concise)
+128,Behavioral & Soft Skills,How do you manage up? (STAR format)
+129,Certifications,What was the most challenging certification? (please be concise)
+130,Education,How did your education prepare you for industry? (focus on numbers)
+131,Profile/Bio,What makes you different from other candidates? (focus on numbers)
+132,Skills & Tech Stack,What's your experience with security best practices?
+133,Role/Company Fit & Match Score,Give a 90-day plan for succeeding as a Frontend Engineer.
+134,Skills & Tech Stack,What ML/DL frameworks have you used? (focus on numbers)
+135,Profile/Bio,What are your preferred working hours? (STAR format)
+136,Experience & Projects,How do you de-risk complex deliveries? (detail your role)
+137,Education,Any hackathons or competitions you participated in? (STAR format)
+138,Profile/Bio,What is your leadership style? (keep it under 60 seconds)
+139,Profile/Bio,Are you open to remote or hybrid roles? (keep it under 60 seconds)
+140,Behavioral & Soft Skills,Describe a failure and what you learned. (please be concise)
+141,Skills & Tech Stack,What is your experience with testing frameworks? (keep it under 60 seconds)
+142,Profile/Bio,How do you stay up to date with technology? (please be concise)
+143,Certifications,Which certification are you planning next? (please be concise)
+144,Career Gaps,What value did the break add to your perspective? (keep it under 60 seconds)
+145,Experience & Projects,How large was the team and what was the timeline? (detail your role)
+146,Experience & Projects,Which metrics improved due to the CI/CD pipeline overhaul?
+147,Profile/Bio,What motivates you at work?
+148,Experience & Projects,What were the biggest challenges in observability stack revamp? (STAR format)
+149,Profile/Bio,Tell me about Veera Mane. (please be concise)
+150,Profile/Bio,Elevator pitch: who are you and what do you do? (detail your role)
+151,Certifications,List your active certifications. (detail your role)
+152,Experience & Projects,How do you sunset legacy systems safely? (detail your role)
+153,Skills & Tech Stack,What frontend frameworks have you used? (keep it under 60 seconds)
+154,Achievements & Impact,Share a quantifiable impact you delivered. (focus on numbers)
+155,Experience & Projects,What trade-offs did you make in the observability stack revamp?
+156,Skills & Tech Stack,What's your level in your proficiency in React.
+157,Career Gaps,How do you ensure a smooth ramp-up after a gap? (STAR format)
+158,Experience & Projects,How did you measure success for {PROJECT}?
+159,Experience & Projects,How do you document your projects?
+160,Career Gaps,Do you have any career gaps? (STAR format)
+161,Profile/Bio,What industries have you contributed to? (detail your role)
+162,Education,What was your specialization?
+163,Experience & Projects,Which metrics improved due to the mobile app backend?
+164,Achievements & Impact,What is a metric you significantly improved? (focus on numbers)
+165,Compensation,Would you consider a lower salary for better role fit?
+166,Achievements & Impact,A time you automated a repetitive process—results? (keep it under 60 seconds)
+167,Skills & Tech Stack,How would you rate your proficiency in Tableau.
+168,Personal Interests (Optional),What communities or clubs are you part of?
+169,Experience & Projects,What was your role in the {PROJECT} project? (keep it under 60 seconds)
+170,Education,Do you mentor or teach others? (keep it under 60 seconds)
+171,Skills & Tech Stack,How do you design APIs? (keep it under 60 seconds)
+172,Certifications,What was the most challenging certification? (keep it under 60 seconds)
+173,Profile/Bio,Which locations are you open to? (detail your role)
+174,Certifications,What was the most challenging certification?
+175,Skills & Tech Stack,How do you design APIs?
+176,Skills & Tech Stack,Rate your proficiency in FastAPI.
+177,Role/Company Fit & Match Score,Give a 90-day plan for succeeding as a Solution Architect.
+178,Behavioral & Soft Skills,How do you communicate complex ideas simply?
+179,Achievements & Impact,Have you mentored juniors or led a guild? (STAR format)
+180,Career Gaps,What motivated the break and what did you learn? (STAR format)
+181,Career Gaps,What value did the break add to your perspective? (detail your role)
+182,Role/Company Fit & Match Score,What impact can you deliver in your first 90 days?
+183,Experience & Projects,How large was the team and what was the timeline? (keep it under 60 seconds)
+184,Behavioral & Soft Skills,How do you communicate complex ideas simply? (detail your role)
+185,Profile/Bio,What are you working on right now? (STAR format)
+186,Education,Have you published papers or blogs? (keep it under 60 seconds)
+187,Profile/Bio,What domains have you worked in?
+188,Profile/Bio,Tell me about {NAME}. (please be concise)
+189,Role/Company Fit & Match Score,"On a 0–100 scale, what's your match score for Solution Architect?"
+190,Experience & Projects,Which metrics improved due to the payment gateway integration?
+191,Skills & Tech Stack,What's your level in your proficiency in MongoDB.
+192,Profile/Bio,What is your leadership style? (focus on numbers)
+193,Certifications,Are your cloud certifications current?
+194,Profile/Bio,Which locations are you open to?
+195,Experience & Projects,What was your role in the API platform project? (please be concise)
+196,Achievements & Impact,Have you mentored juniors or led a guild? (detail your role)
+197,Achievements & Impact,Have you filed any patents or disclosures? (please be concise)
+198,Profile/Bio,How do teammates describe you? (STAR format)
+199,Skills & Tech Stack,Which design patterns do you commonly use?
+200,Skills & Tech Stack,"How do you implement observability (logs, metrics, traces)? (please be concise)"
+201,Skills & Tech Stack,What's your level in your proficiency in Hadoop.
+202,Career Gaps,What value did the break add to your perspective?
+203,Skills & Tech Stack,What databases have you used? (focus on numbers)
+204,Personal Interests (Optional),What are your hobbies outside of work?
+205,Achievements & Impact,Have you filed any patents or disclosures? (keep it under 60 seconds)
+206,Skills & Tech Stack,Do you have experience with microservices? (focus on numbers)
+207,Profile/Bio,What industries have you contributed to?
+208,Certifications,Why did you choose to certify in {TECH}? (focus on numbers)
+209,Education,What was your specialization? (STAR format)
+210,Skills & Tech Stack,What's your level in your proficiency in RabbitMQ.
+211,Role/Company Fit & Match Score,How do your values align with the company?
+212,Profile/Bio,What are your preferred working hours? (please be concise)
+213,Skills & Tech Stack,Rate your proficiency in PyTorch.
+214,Experience & Projects,What was your role in the API platform project? (keep it under 60 seconds)
+215,Skills & Tech Stack,"How do you implement observability (logs, metrics, traces)? (focus on numbers)"
+216,Experience & Projects,What metrics (KPIs/OKRs) did your work move? (focus on numbers)
+217,Education,Have you completed online courses or MOOCs? (keep it under 60 seconds)
+218,Skills & Tech Stack,"How do you implement observability (logs, metrics, traces)?"
+219,Skills & Tech Stack,What's your level in your proficiency in NumPy.
+220,Skills & Tech Stack,How do you design APIs? (STAR format)
+221,Career Gaps,What value did the break add to your perspective? (focus on numbers)
+222,Education,Did you receive any academic awards?
+223,Achievements & Impact,A time you automated a repetitive process—results? (STAR format)
+224,Achievements & Impact,Have you mentored juniors or led a guild? (keep it under 60 seconds)
+225,Experience & Projects,What challenges did you overcome in the ML-based recommendation engine?
+226,Career Gaps,How do you address concerns about the gap?
+227,Profile/Bio,How do you stay up to date with technology? (keep it under 60 seconds)
+228,Certifications,Have you expired certifications to renew? (keep it under 60 seconds)
+229,Career Gaps,What value did the break add to your perspective? (STAR format)
+230,Achievements & Impact,Share a time you reduced costs or increased revenue. (please be concise)
+231,Experience & Projects,Describe an example of stakeholder management. (STAR format)
+232,Profile/Bio,List three words that best describe you professionally.
+233,Achievements & Impact,List your top professional achievements. (focus on numbers)
+234,Skills & Tech Stack,What's your core expertise and toolchain.
+235,Achievements & Impact,Have you spoken at conferences or meetups? (please be concise)
+236,Role/Company Fit & Match Score,How well do you fit the Data Engineer role?
+237,Behavioral & Soft Skills,How do you handle high-pressure incidents?
+238,Profile/Bio,Tell me about {NAME}. (keep it under 60 seconds)
+239,Role/Company Fit & Match Score,Explain why you're a strong fit for the Data Engineer role.
+240,Experience & Projects,How do you ensure maintainability and scalability? (please be concise)
+241,Personal Interests (Optional),Any interests that influence your work style?
+242,Experience & Projects,What challenges did you overcome in the microservices migration?
+243,Experience & Projects,Give an example of cross-team collaboration. (detail your role)
+244,Experience & Projects,How do you handle incident response? (please be concise)
+245,Profile/Bio,What impact have you delivered in your recent roles?
+246,Experience & Projects,What were the biggest challenges in observability stack revamp?
+247,Experience & Projects,How do you de-risk complex deliveries? (keep it under 60 seconds)
+248,Profile/Bio,Can you summarize your career journey so far? (keep it under 60 seconds)
+249,Experience & Projects,How do you handle requirement changes mid-project? (detail your role)
+250,Skills & Tech Stack,What's your experience with security best practices? (keep it under 60 seconds)
+251,Profile/Bio,How would you describe yourself in one paragraph? (detail your role)
+252,Skills & Tech Stack,Rate your proficiency in {TECH}.
+253,Skills & Tech Stack,Self-assess your proficiency in your proficiency in Redis.
+254,Behavioral & Soft Skills,How do you manage up? (please be concise)
+255,Education,Are you pursuing further education? (detail your role)
+256,Work Preferences & Availability,Are you open to relocation to {CITY}?
+257,Skills & Tech Stack,What is your experience with serverless? (keep it under 60 seconds)
+258,Certifications,Are your cloud certifications current? (STAR format)
+259,Behavioral & Soft Skills,How do you communicate complex ideas simply? (focus on numbers)
+260,Behavioral & Soft Skills,Describe a conflict you resolved. (detail your role)
+261,Profile/Bio,Tell me about Veera Mane. (keep it under 60 seconds)
+262,Certifications,Which certification are you planning next? (keep it under 60 seconds)
+263,Behavioral & Soft Skills,How do you give and receive feedback? (STAR format)
+264,Certifications,Which certification are you planning next?
+265,Personal Interests (Optional),What volunteer work have you done?
+266,Profile/Bio,Tell me about {NAME}. (focus on numbers)
+267,Profile/Bio,Do you have work authorization constraints?
+268,Skills & Tech Stack,What is your approach to code reviews? (please be concise)
+269,Profile/Bio,How do you stay up to date with technology?
+270,Profile/Bio,Tell me about {NAME}. (STAR format)
+271,Skills & Tech Stack,"How do you implement observability (logs, metrics, traces)? (detail your role)"
+272,Profile/Bio,How do you handle feedback? (keep it under 60 seconds)
+273,Skills & Tech Stack,Which programming languages are you most comfortable with?
+274,Experience & Projects,What were the biggest challenges in observability stack revamp? (focus on numbers)
+275,Certifications,Do you maintain CE credits (if applicable)?
+276,Achievements & Impact,Share a quantifiable impact you delivered. (keep it under 60 seconds)
+277,Learning & Growth,How do you structure your learning plan?
+278,Skills & Tech Stack,What backend frameworks have you used? (please be concise)
+279,Skills & Tech Stack,What is your experience with REST vs GraphQL? (keep it under 60 seconds)
+280,Experience & Projects,What would you do differently in payment gateway integration?
+281,Skills & Tech Stack,What's your experience with security best practices? (STAR format)
+282,Experience & Projects,Describe a feature you took from idea to production.
+283,Education,What was your GPA/percentage (if you share)? (please be concise)
+284,Bot & Meta,Can I download your resume as PDF?
+285,Education,What thesis or capstone did you complete? (focus on numbers)
+286,Certifications,Why did you choose to certify in {TECH}?
+287,Skills & Tech Stack,What is your experience with serverless? (detail your role)
+288,Skills & Tech Stack,Self-assess your proficiency in your proficiency in Docker.
+289,Learning & Growth,How do you practice new technologies?
+290,Achievements & Impact,What is a metric you significantly improved? (STAR format)
+291,Bot & Meta,How do you keep information up to date?
+292,Achievements & Impact,What is a metric you significantly improved? (detail your role)
+293,Experience & Projects,What metrics (KPIs/OKRs) did your work move? (detail your role)
+294,Certifications,Do you have security or compliance certifications? (STAR format)
+295,Certifications,List your active certifications.
+296,Experience & Projects,What was your role in the API platform project?
+297,Role/Company Fit & Match Score,Map your skills to the Solution Architect job description.
+298,Experience & Projects,How did you ensure reliability and uptime? (detail your role)
+299,Education,Where did you study B.Tech in Computer Science? (STAR format)
+300,Education,What is your highest degree? (STAR format)
+301,Education,What was your GPA/percentage (if you share)? (STAR format)
+302,Experience & Projects,Describe a zero-to-one project you led. (keep it under 60 seconds)
+303,Experience & Projects,What would you refactor if you revisited the observability stack revamp?
+304,Certifications,How do you validate hands-on skills beyond certs? (STAR format)
+305,Career Gaps,How do you ensure a smooth ramp-up after a gap? (detail your role)
+306,Compensation,What is your expected CTC?
+307,Compensation,What compensation structure do you prefer?
+308,Experience & Projects,How do you handle incident response? (detail your role)
+309,Skills & Tech Stack,Which programming languages are you most comfortable with? (STAR format)
+310,Education,What was your specialization? (keep it under 60 seconds)
+311,Experience & Projects,What were the biggest challenges in {PROJECT}? (keep it under 60 seconds)
+312,Experience & Projects,What were the biggest challenges in {PROJECT}?
+313,Skills & Tech Stack,How do you handle authentication and authorization? (please be concise)
+314,Portfolio & Repos,Where can I find your resume?
+315,Education,What certifications complement your degree? (please be concise)
+316,Profile/Bio,Can you summarize your career journey so far?
+317,Certifications,Why did you choose to certify in Redis? (detail your role)
+318,Education,Did you receive any academic awards? (detail your role)
+319,Profile/Bio,How do you prioritize tasks?
+320,Profile/Bio,Do you have work authorization constraints? (keep it under 60 seconds)
+321,Skills & Tech Stack,Which programming languages are you most comfortable with? (detail your role)
+322,Experience & Projects,How do you internationalize/localize applications? (please be concise)
+323,Learning & Growth,How do you measure skill improvement?
+324,Education,What is your highest degree? (keep it under 60 seconds)
+325,Behavioral & Soft Skills,How do you onboard quickly to new domains? (focus on numbers)
+326,Experience & Projects,What tech stack did you use for API platform? (detail your role)
+327,Certifications,How do you validate hands-on skills beyond certs? (focus on numbers)
+328,Profile/Bio,Tell me about {NAME}.
+329,Career Gaps,What motivated the break and what did you learn?
+330,Achievements & Impact,Share a quantifiable impact you delivered. (detail your role)
+331,Profile/Bio,What is your unique value proposition?
+332,Experience & Projects,Which metrics improved due to the ML-based recommendation engine?
+333,Bot & Meta,Can you compare your profile to a given JD?
+334,Skills & Tech Stack,What is your experience with testing frameworks? (please be concise)
+335,Experience & Projects,How did you measure success for real-time analytics system? (please be concise)
+336,Profile/Bio,How do you handle ambiguity? (please be concise)
+337,Experience & Projects,Describe a time you optimized cost or latency. (focus on numbers)
+338,Experience & Projects,How do you de-risk complex deliveries? (STAR format)
+339,Profile/Bio,What are your preferred working hours? (focus on numbers)
+340,Achievements & Impact,Have you spoken at conferences or meetups? (STAR format)
+341,Experience & Projects,What tech stack did you use for API platform? (keep it under 60 seconds)
+342,Profile/Bio,What is your problem-solving approach?
+343,Education,Where did you study B.Tech in Computer Science? (focus on numbers)
+344,Skills & Tech Stack,Rate your proficiency in Redis.
+345,Certifications,What was the most challenging certification? (focus on numbers)
+346,Experience & Projects,What tech stack did you use for API platform? (please be concise)
+347,Skills & Tech Stack,How do you ensure data quality? (keep it under 60 seconds)
+348,Education,Are you pursuing further education? (focus on numbers)
+349,Skills & Tech Stack,How do you approach performance optimization? (keep it under 60 seconds)
+350,Skills & Tech Stack,How do you handle caching layers?
+351,Personal Interests (Optional),How do you balance work and life?
+352,Experience & Projects,What would you do differently in payment gateway integration? (detail your role)
+353,Profile/Bio,Tell me about {NAME}. (detail your role)
+354,Certifications,Are your cloud certifications current? (keep it under 60 seconds)
+355,Education,How did your education prepare you for industry? (STAR format)
+356,Skills & Tech Stack,How would you rate your proficiency in Kubernetes.
+357,Career Gaps,How do you explain your career break from {DATE_FROM} to {DATE_TO}? (please be concise)
+358,Education,What was your GPA/percentage (if you share)?
+359,Experience & Projects,How large was the team and what was the timeline? (STAR format)
+360,Profile/Bio,What is your leadership style? (please be concise)
+361,Experience & Projects,What challenges did you overcome in the CI/CD pipeline overhaul?
+362,Achievements & Impact,Have you won any awards or recognitions? (focus on numbers)
+363,Certifications,How do you validate hands-on skills beyond certs? (detail your role)
+364,Skills & Tech Stack,"How do you orchestrate containers (e.g., Kubernetes)? (STAR format)"
+365,Role/Company Fit & Match Score,"On a 0–100 scale, what's your match score for {ROLE}?"
+366,Experience & Projects,What would you do differently in {PROJECT}? (detail your role)
+367,Profile/Bio,What is your problem-solving approach? (detail your role)
+368,Experience & Projects,What did you learn from a failed experiment? (STAR format)
+369,Skills & Tech Stack,Rate your proficiency in Docker.
+370,Skills & Tech Stack,"How do you orchestrate containers (e.g., Kubernetes)? (keep it under 60 seconds)"
+371,Education,Where did you study {DEGREE}? (keep it under 60 seconds)
+372,Experience & Projects,What was your role in the {PROJECT} project? (STAR format)
+373,Career Gaps,How do you explain your career break from {DATE_FROM} to {DATE_TO}?
+374,Profile/Bio,Do you have work authorization constraints? (please be concise)
+375,Role/Company Fit & Match Score,"On a 0–100 scale, what's your match score for ML Engineer?"
+376,Skills & Tech Stack,What's your level in your proficiency in Kubernetes.
+377,Behavioral & Soft Skills,Describe a conflict you resolved. (STAR format)
+378,Education,Have you completed online courses or MOOCs? (STAR format)
+379,Education,Any hackathons or competitions you participated in? (detail your role)
+380,Profile/Bio,How do you handle ambiguity? (STAR format)
+381,Certifications,Why did you choose to certify in {TECH}? (keep it under 60 seconds)
+382,Education,Did you receive any academic awards? (please be concise)
+383,Profile/Bio,What problems do you love solving? (keep it under 60 seconds)
+384,Education,What was your specialization? (please be concise)
+385,Skills & Tech Stack,Have you worked with message queues like Kafka or RabbitMQ? (focus on numbers)
+386,Profile/Bio,What are you working on right now? (focus on numbers)
+387,Career Gaps,How did you plan your return to work? (please be concise)
+388,Education,Are you pursuing further education?
+389,Skills & Tech Stack,How would you rate your proficiency in Jenkins.
+390,Role/Company Fit & Match Score,Which experiences de-risk this role for you?
+391,Profile/Bio,List three words that best describe you professionally. (please be concise)
+392,Profile/Bio,Give a brief bio of Veera Mane. (please be concise)
+393,Profile/Bio,How do you prioritize tasks? (detail your role)
+394,Education,How did your education prepare you for industry? (please be concise)
+395,Behavioral & Soft Skills,What do you do when blocked?
+396,Experience & Projects,Describe your contribution to the data warehouse modernization.
+397,Role/Company Fit & Match Score,Explain why you're a strong fit for the Frontend Engineer role.
+398,Skills & Tech Stack,Rate your proficiency in React.
+399,Role/Company Fit & Match Score,Map your skills to the Cloud Engineer job description.
+400,Profile/Bio,Give a brief bio of {NAME}. (keep it under 60 seconds)
+401,Education,Are you pursuing further education? (STAR format)
+402,Experience & Projects,How did you measure success for {PROJECT}? (detail your role)
+403,Experience & Projects,What was your contribution to architecture decisions? (STAR format)
+404,Skills & Tech Stack,"How do you orchestrate containers (e.g., Kubernetes)? (detail your role)"
+405,Skills & Tech Stack,How do you containerize applications? (detail your role)
+406,Education,What certifications complement your degree? (detail your role)
+407,Education,Where did you study B.Tech in Computer Science? (detail your role)
+408,Profile/Bio,What are your preferred working hours? (detail your role)
+409,Behavioral & Soft Skills,How do you handle scope creep? (STAR format)
+410,Role/Company Fit & Match Score,Give a 90-day plan for succeeding as a Full-Stack Developer.
+411,Skills & Tech Stack,List your top 10 technical skills. (please be concise)
+412,Experience & Projects,Describe an example of stakeholder management. (focus on numbers)
+413,Certifications,How do you validate hands-on skills beyond certs? (keep it under 60 seconds)
+414,Experience & Projects,Give an example of cross-team collaboration. (focus on numbers)
+415,Skills & Tech Stack,How would you rate your proficiency in Flask.
+416,Behavioral & Soft Skills,How do you onboard quickly to new domains?
+417,Experience & Projects,How did you collaborate with designers/product managers? (detail your role)
+418,Achievements & Impact,List your top professional achievements.
+419,Skills & Tech Stack,Which cloud platforms do you know (AWS/Azure/GCP)? (detail your role)
+420,Bot & Meta,How do I ask you about experience?
+421,Experience & Projects,What would you do differently in {PROJECT}? (focus on numbers)
+422,Skills & Tech Stack,How do you approach performance optimization? (focus on numbers)
+423,Experience & Projects,How did you measure success for {PROJECT}? (please be concise)
+424,Career Gaps,What motivated the break and what did you learn? (keep it under 60 seconds)
+425,Experience & Projects,How do you handle requirement changes mid-project? (keep it under 60 seconds)
+426,Experience & Projects,"Describe a migration you executed (e.g., monolith to microservices). (detail your role)"
+427,Skills & Tech Stack,Explain your core expertise and tooling.
+428,Experience & Projects,How did you measure success for real-time analytics system?
+429,Experience & Projects,How do you internationalize/localize applications?
+430,Skills & Tech Stack,What is your experience with testing frameworks?
+431,Role/Company Fit & Match Score,Map your skills to the ML Engineer job description.
+432,Career Gaps,How do you address concerns about the gap? (focus on numbers)
+433,Skills & Tech Stack,"How do you orchestrate containers (e.g., Kubernetes)?"
+434,Achievements & Impact,Have you won any awards or recognitions? (detail your role)
+435,Skills & Tech Stack,What's your level in your proficiency in Redis.
+436,Learning & Growth,What communities are you part of?
+437,Profile/Bio,Which locations are you open to? (focus on numbers)
+438,Behavioral & Soft Skills,How do you manage up? (detail your role)
+439,Experience & Projects,What metrics (KPIs/OKRs) did your work move? (keep it under 60 seconds)
+440,Behavioral & Soft Skills,How do you handle scope creep? (keep it under 60 seconds)
+441,Skills & Tech Stack,Self-assess your proficiency in your proficiency in Django.
+442,Profile/Bio,What impact have you delivered in your recent roles? (please be concise)
+443,Experience & Projects,What were the biggest challenges in {PROJECT}? (detail your role)
+444,Experience & Projects,What trade-offs did you make in the real-time analytics system?
+445,Achievements & Impact,How have you improved team productivity? (detail your role)
+446,Experience & Projects,How do you ensure accessibility in your products? (detail your role)
+447,Behavioral & Soft Skills,How do you onboard quickly to new domains? (detail your role)
+448,Profile/Bio,What motivates you at work? (STAR format)
+449,Experience & Projects,What performance improvements did you achieve? (focus on numbers)
+450,Experience & Projects,How did you measure success for real-time analytics system? (detail your role)
+451,Profile/Bio,What are your top strengths in one line?
+452,Certifications,Do you have security or compliance certifications? (keep it under 60 seconds)
+453,Role/Company Fit & Match Score,What gaps would you close to excel as a Solution Architect?
+454,Education,What was your GPA/percentage (if you share)? (detail your role)
+455,Achievements & Impact,How have you improved team productivity? (please be concise)
+456,Bot & Meta,What data sources do you use for answers?
+457,Experience & Projects,What tech stack did you use for {PROJECT}? (detail your role)
+458,Experience & Projects,What were the biggest challenges in observability stack revamp? (detail your role)
+459,Work Preferences & Availability,Are you open to contract roles?
+460,Achievements & Impact,Have you won any awards or recognitions? (STAR format)
+461,Experience & Projects,Describe your contribution to the observability stack revamp.
+462,Education,What is your highest degree?
+463,Achievements & Impact,Have you filed any patents or disclosures?
+464,Skills & Tech Stack,Give me an overview of your core strengths and toolchain.
+465,Skills & Tech Stack,How would you rate your proficiency in React.
+466,Profile/Bio,Can you summarize your career journey so far? (please be concise)
+467,Certifications,Why did you choose to certify in Redis? (keep it under 60 seconds)
+468,Experience & Projects,How do you ensure accessibility in your products? (keep it under 60 seconds)
+469,Profile/Bio,What is your problem-solving approach? (STAR format)
+470,Certifications,Which certification are you planning next? (focus on numbers)
+471,Skills & Tech Stack,Rate your proficiency in Python. (keep it under 60 seconds)
+472,Behavioral & Soft Skills,Describe a time you influenced without authority. (focus on numbers)
+473,Bot & Meta,Do you support follow-up questions?
+474,Achievements & Impact,How have you improved team productivity?
+475,Achievements & Impact,Share a time you reduced costs or increased revenue. (keep it under 60 seconds)
+476,Achievements & Impact,Have you spoken at conferences or meetups? (focus on numbers)
+477,Skills & Tech Stack,Self-assess your proficiency in your proficiency in TensorFlow.
+478,Experience & Projects,What trade-offs did you make and why? (focus on numbers)
+479,Experience & Projects,How did you measure success for {PROJECT}? (STAR format)
+480,Profile/Bio,What's a quick overview of your professional background?
+481,Experience & Projects,What’s a project you are most proud of and why? (focus on numbers)
+482,Education,Have you completed online courses or MOOCs? (please be concise)
+483,Behavioral & Soft Skills,Describe a time you influenced without authority.
+484,Profile/Bio,What makes you different from other candidates? (please be concise)
+485,Profile/Bio,What's a quick overview of your professional background? (focus on numbers)
+486,Career Gaps,Did you upskill or freelance during the gap? (detail your role)
+487,Profile/Bio,What impact have you delivered in your recent roles? (detail your role)
+488,Experience & Projects,Describe a time you optimized cost or latency. (please be concise)
+489,Achievements & Impact,List your top professional achievements. (keep it under 60 seconds)
+490,Skills & Tech Stack,What is your experience with data pipelines? (detail your role)
+491,Education,What thesis or capstone did you complete? (detail your role)
+492,Profile/Bio,What industries have you contributed to? (focus on numbers)
+493,Profile/Bio,What are your long-term career aspirations?
+494,Profile/Bio,How do you handle ambiguity? (detail your role)
+495,Skills & Tech Stack,What is your experience with serverless? (please be concise)
+496,Career Gaps,Do you have any career gaps? (keep it under 60 seconds)
+497,Skills & Tech Stack,Rate your proficiency in {TECH}. (detail your role)
+498,Skills & Tech Stack,List your top 10 technical skills. (detail your role)
+499,Learning & Growth,What skills are you planning to acquire next?
+500,Experience & Projects,How do you ensure accessibility in your products? (focus on numbers)
+501,Profile/Bio,What problems do you love solving? (focus on numbers)
+502,Experience & Projects,How do you ensure maintainability and scalability? (keep it under 60 seconds)
+503,Experience & Projects,What performance improvements did you achieve? (please be concise)
+504,Behavioral & Soft Skills,How do you give and receive feedback? (detail your role)
+505,Profile/Bio,Give a brief bio of {NAME}. (STAR format)
+506,Experience & Projects,Describe a zero-to-one project you led. (STAR format)
+507,Experience & Projects,What would you refactor if you revisited the e-commerce platform?
+508,Experience & Projects,"Describe a migration you executed (e.g., monolith to microservices). (focus on numbers)"
+509,Certifications,How have certifications helped you at work?
+510,Skills & Tech Stack,Rate your proficiency in Kafka.
+511,Role/Company Fit & Match Score,What gaps would you close to excel as a Full-Stack Developer?
+512,Experience & Projects,How do you sunset legacy systems safely?
+513,Skills & Tech Stack,How do you ensure data quality?
+514,Skills & Tech Stack,What ML/DL frameworks have you used? (STAR format)
+515,Education,Are you pursuing further education? (keep it under 60 seconds)
+516,Profile/Bio,How do you handle ambiguity? (keep it under 60 seconds)
+517,Experience & Projects,What’s a project you are most proud of and why? (STAR format)
+518,Career Gaps,Were there any personal projects during the gap? (please be concise)
+519,Profile/Bio,List three words that best describe you professionally. (keep it under 60 seconds)
+520,Experience & Projects,Which metrics improved due to the observability stack revamp?
+521,Experience & Projects,What was your role in the API platform project? (focus on numbers)
+522,Profile/Bio,Elevator pitch: who are you and what do you do?
+523,Profile/Bio,Do you have work authorization constraints? (STAR format)
+524,Skills & Tech Stack,Do you have experience with microservices? (keep it under 60 seconds)
+525,Profile/Bio,What is your unique value proposition? (detail your role)
+526,Role/Company Fit & Match Score,What gaps would you close to excel as a Data Engineer?
+527,Experience & Projects,What would you refactor if you revisited the mobile app backend?
+528,Education,What academic projects are relevant to your roles?
+529,Skills & Tech Stack,What ML/DL frameworks have you used?
+530,Skills & Tech Stack,Tell me about your core expertise and tooling.
+531,Bot & Meta,Can you provide STAR-format answers?
+532,Education,What academic projects are relevant to your roles? (STAR format)
+533,Skills & Tech Stack,Rate your proficiency in Python. (please be concise)
+534,Skills & Tech Stack,Rate your proficiency in Azure.
+535,Education,Do you mentor or teach others?
+536,Skills & Tech Stack,"How do you orchestrate containers (e.g., Kubernetes)? (please be concise)"
+537,Skills & Tech Stack,How would you rate your proficiency in NumPy.
+538,Skills & Tech Stack,Rate your proficiency in NumPy.
+539,Portfolio & Repos,Do you have live demos or case studies?
+540,Experience & Projects,What would you do differently in payment gateway integration? (STAR format)
+541,Experience & Projects,How do you de-risk complex deliveries? (please be concise)
+542,Skills & Tech Stack,How would you rate your proficiency in Redis.
+543,Profile/Bio,Elevator pitch: who are you and what do you do? (keep it under 60 seconds)
+544,Experience & Projects,What trade-offs did you make and why? (detail your role)
+545,Experience & Projects,What trade-offs did you make and why? (STAR format)
+546,Profile/Bio,What motivates you at work? (detail your role)
+547,Education,Any hackathons or competitions you participated in? (focus on numbers)
+548,Career Gaps,What motivated the break and what did you learn? (focus on numbers)
+549,Behavioral & Soft Skills,How do you handle tight deadlines?
+550,Experience & Projects,Walk me through your most impactful project. (please be concise)
+551,Experience & Projects,Describe your contribution to the CI/CD pipeline overhaul.
+552,Experience & Projects,What would you refactor if you revisited the real-time analytics system?
+553,Behavioral & Soft Skills,How do you stay organized? (please be concise)
+554,Career Gaps,How do you address concerns about the gap? (keep it under 60 seconds)
+555,Skills & Tech Stack,Self-assess your proficiency in your proficiency in NumPy.
+556,Role/Company Fit & Match Score,What gaps would you close to excel as a SRE?
+557,Skills & Tech Stack,Rate your proficiency in {TECH}. (please be concise)
+558,Experience & Projects,How do you document your projects? (focus on numbers)
+559,Profile/Bio,What impact have you delivered in your recent roles? (STAR format)
+560,Profile/Bio,How do you handle feedback? (focus on numbers)
+561,Skills & Tech Stack,How do you approach performance optimization? (STAR format)
+562,Experience & Projects,How large was the team and what was the timeline? (focus on numbers)
+563,Experience & Projects,Give an example of cross-team collaboration. (keep it under 60 seconds)
+564,Skills & Tech Stack,Rate your proficiency in TensorFlow.
+565,Education,Where did you study {DEGREE}? (focus on numbers)
+566,Skills & Tech Stack,Self-assess your proficiency in your proficiency in RabbitMQ.
+567,Compensation,What benefits matter most to you?
+568,Experience & Projects,What was your role in the {PROJECT} project? (detail your role)
+569,Skills & Tech Stack,Which version control workflows do you prefer? (keep it under 60 seconds)
+570,Role/Company Fit & Match Score,What gaps would you close to excel as a Frontend Engineer?
+571,Certifications,Have you expired certifications to renew? (STAR format)
+572,Role/Company Fit & Match Score,Explain why you're a strong fit for the Cloud Engineer role.
+573,Skills & Tech Stack,"How do you implement observability (logs, metrics, traces)? (keep it under 60 seconds)"
+574,Profile/Bio,What problems do you love solving? (STAR format)
+575,Role/Company Fit & Match Score,How would you ramp up for missing skills?
+576,Skills & Tech Stack,What frontend frameworks have you used? (please be concise)
+577,Experience & Projects,What challenges did you overcome in the real-time analytics system?
+578,Experience & Projects,What did you learn from a failed experiment? (detail your role)
+579,Behavioral & Soft Skills,How do you give and receive feedback? (focus on numbers)
+580,Behavioral & Soft Skills,How do you communicate complex ideas simply? (please be concise)
+581,Profile/Bio,How do you prioritize tasks? (please be concise)
+582,Career Gaps,How did you plan your return to work? (keep it under 60 seconds)
+583,Skills & Tech Stack,How do you containerize applications? (focus on numbers)
+584,Achievements & Impact,Have you mentored juniors or led a guild?
+585,Experience & Projects,Walk me through your most impactful project.
+586,Achievements & Impact,Have you filed any patents or disclosures? (STAR format)
+587,Profile/Bio,What are your career goals for the next 2 years? (detail your role)
+588,Certifications,List your active certifications. (focus on numbers)
+589,Behavioral & Soft Skills,Describe a time you influenced without authority. (detail your role)
+590,Experience & Projects,What trade-offs did you make in the mobile app backend?
+591,Behavioral & Soft Skills,How do you stay organized?
+592,Skills & Tech Stack,How do you handle caching layers? (please be concise)
+593,Achievements & Impact,Have you spoken at conferences or meetups? (detail your role)
+594,Profile/Bio,Elevator pitch: who are you and what do you do? (focus on numbers)
+595,Profile/Bio,What roles are you currently targeting?
+596,Compensation,What's your flexibility on compensation?
+597,Achievements & Impact,A time you automated a repetitive process—results? (please be concise)
+598,Achievements & Impact,How have you improved team productivity? (STAR format)
+599,Skills & Tech Stack,What is your core tech stack?
+600,Skills & Tech Stack,Self-assess your proficiency in your proficiency in Azure.
+601,Behavioral & Soft Skills,How do you manage up?
+602,Experience & Projects,Describe your contribution to the microservices migration.
+603,Profile/Bio,Do you have work authorization constraints? (focus on numbers)
+604,Role/Company Fit & Match Score,Compute a match score for DevOps Engineer based on your skills.
+605,Profile/Bio,What domains have you worked in? (focus on numbers)
+606,Skills & Tech Stack,What backend frameworks have you used? (STAR format)
+607,Education,Have you published papers or blogs? (detail your role)
+608,Bot & Meta,How do you calculate match score?
+609,Achievements & Impact,Have you spoken at conferences or meetups? (keep it under 60 seconds)
+610,Skills & Tech Stack,List your top 10 technical skills. (keep it under 60 seconds)
+611,Experience & Projects,What were the biggest challenges in observability stack revamp? (please be concise)
+612,Achievements & Impact,Have you filed any patents or disclosures? (focus on numbers)
+613,Skills & Tech Stack,What ML/DL frameworks have you used? (keep it under 60 seconds)
+614,Profile/Bio,How do teammates describe you?
+615,Skills & Tech Stack,How do you handle authentication and authorization? (keep it under 60 seconds)
+616,Experience & Projects,How do you ensure accessibility in your products? (please be concise)
+617,Experience & Projects,What were the biggest challenges in {PROJECT}? (STAR format)
+618,Education,Have you published papers or blogs?
+619,Behavioral & Soft Skills,How do you handle tight deadlines? (keep it under 60 seconds)
+620,Experience & Projects,How do you estimate and plan sprints? (focus on numbers)
+621,Profile/Bio,What are your career goals for the next 2 years?
+622,Behavioral & Soft Skills,How do you give and receive feedback? (keep it under 60 seconds)
+623,Experience & Projects,What would you do differently in payment gateway integration? (keep it under 60 seconds)
+624,Profile/Bio,How do you prioritize tasks? (focus on numbers)
+625,Profile/Bio,What impact have you delivered in your recent roles? (focus on numbers)
+626,Profile/Bio,How do you stay up to date with technology? (STAR format)
+627,Experience & Projects,How did you ensure reliability and uptime? (keep it under 60 seconds)
+628,Career Gaps,How do you explain your career break from Jan 2022 to Aug 2022? (focus on numbers)
+629,Role/Company Fit & Match Score,Give a 90-day plan for succeeding as a ML Engineer.
+630,Skills & Tech Stack,Rate your proficiency in {TECH}. (keep it under 60 seconds)
+631,Career Gaps,How do you address concerns about the gap? (detail your role)
+632,Skills & Tech Stack,How do you design APIs? (detail your role)
+633,Work Preferences & Availability,Preferred team size and structure?
+634,Skills & Tech Stack,What is your approach to code reviews? (keep it under 60 seconds)
+635,Skills & Tech Stack,What CI/CD tools have you worked with? (keep it under 60 seconds)
+636,Skills & Tech Stack,Have you built real-time systems (WebSockets/streaming)? (focus on numbers)
+637,Achievements & Impact,What is a metric you significantly improved?
+638,Behavioral & Soft Skills,Describe a conflict you resolved. (focus on numbers)
+639,Skills & Tech Stack,Which cloud platforms do you know (AWS/Azure/GCP)? (STAR format)
+640,Behavioral & Soft Skills,Describe a failure and what you learned.
+641,Profile/Bio,What are you working on right now? (keep it under 60 seconds)
+642,Experience & Projects,What trade-offs did you make and why? (keep it under 60 seconds)
+643,Profile/Bio,List three words that best describe you professionally. (STAR format)
+644,Role/Company Fit & Match Score,Explain why you're a strong fit for the ML Engineer role.
+645,Education,Where did you study B.Tech in Computer Science? (keep it under 60 seconds)
+646,Skills & Tech Stack,Which cloud platforms do you know (AWS/Azure/GCP)?
+647,Skills & Tech Stack,What's your experience with security best practices? (detail your role)
+648,Career Gaps,What did you do during your gap to stay current? (keep it under 60 seconds)
+649,Achievements & Impact,A time you automated a repetitive process—results? (focus on numbers)
+650,Experience & Projects,Which metrics improved due to the API platform?
+651,Profile/Bio,What roles are you currently targeting? (focus on numbers)
+652,Certifications,Why did you choose to certify in {TECH}? (detail your role)
+653,Portfolio & Repos,Highlight pinned repositories relevant to Data Engineer.
+654,Experience & Projects,Walk me through your most impactful project. (detail your role)
+655,Certifications,Have you expired certifications to renew? (focus on numbers)
+656,Profile/Bio,How do you handle ambiguity? (focus on numbers)
+657,Certifications,How have certifications helped you at work? (please be concise)
+658,Experience & Projects,What trade-offs did you make in the payment gateway integration?
+659,Experience & Projects,What would you refactor if you revisited the ML-based recommendation engine?
+660,Skills & Tech Stack,How do you ensure data quality? (please be concise)
+661,Experience & Projects,How do you ensure maintainability and scalability? (detail your role)
+662,Certifications,Do you have security or compliance certifications?
+663,Skills & Tech Stack,What CI/CD tools have you worked with? (STAR format)
+664,Skills & Tech Stack,Do you have experience with microservices? (detail your role)
+665,Skills & Tech Stack,How would you rate your proficiency in Hadoop.
+666,Experience & Projects,How do you sunset legacy systems safely? (keep it under 60 seconds)
+667,Profile/Bio,What are your top strengths in one line? (focus on numbers)
+668,Profile/Bio,What are your long-term career aspirations? (focus on numbers)
+669,Certifications,How have certifications helped you at work? (STAR format)
+670,Experience & Projects,How do you document your projects? (please be concise)
+671,Skills & Tech Stack,What's your level in your proficiency in Kafka.
+672,Profile/Bio,What is your problem-solving approach? (focus on numbers)
+673,Role/Company Fit & Match Score,Map your skills to the Product Engineer job description.
+674,Compensation,Do you have competing offers?
+675,Experience & Projects,How do you de-risk complex deliveries? (focus on numbers)
+676,Achievements & Impact,Share a time you reduced costs or increased revenue. (detail your role)
+677,Skills & Tech Stack,"Have you implemented Infrastructure as Code (e.g., Terraform)?"
+678,Experience & Projects,What challenges did you overcome in the API platform?
+679,Experience & Projects,What were the biggest challenges in observability stack revamp? (keep it under 60 seconds)
+680,Skills & Tech Stack,Which version control workflows do you prefer? (focus on numbers)
+681,Certifications,Do you maintain CE credits (if applicable)? (STAR format)
+682,Experience & Projects,Describe your contribution to the e-commerce platform.
+683,Skills & Tech Stack,How would you rate your proficiency in Docker.
+684,Achievements & Impact,Share a quantifiable impact you delivered.
+685,Career Gaps,What value did the break add to your perspective? (please be concise)
+686,Education,Any hackathons or competitions you participated in?
+687,Profile/Bio,What are you working on right now?
+688,Profile/Bio,What motivates you at work? (please be concise)
+689,Experience & Projects,What’s a project you are most proud of and why? (detail your role)
+690,Profile/Bio,What is your unique value proposition? (focus on numbers)
+691,Skills & Tech Stack,"Have you implemented Infrastructure as Code (e.g., Terraform)? (detail your role)"
+692,Skills & Tech Stack,How do you approach performance optimization? (please be concise)
+693,Skills & Tech Stack,What frontend frameworks have you used? (focus on numbers)
+694,Profile/Bio,Can you summarize your career journey so far? (focus on numbers)
+695,Skills & Tech Stack,Self-assess your proficiency in your proficiency in Hadoop.
+696,Skills & Tech Stack,How do you handle caching layers? (detail your role)
+697,Skills & Tech Stack,How do you approach performance optimization?
+698,Education,What extracurriculars built relevant skills? (keep it under 60 seconds)
+699,Skills & Tech Stack,Which programming languages are you most comfortable with? (keep it under 60 seconds)
+700,Learning & Growth,What certifications are you targeting?
+701,Skills & Tech Stack,How would you rate your proficiency in Azure.
+702,Profile/Bio,What are you working on right now? (detail your role)
+703,Profile/Bio,What are your long-term career aspirations? (keep it under 60 seconds)
+704,Experience & Projects,What trade-offs did you make in the ML-based recommendation engine?
+705,Experience & Projects,What metrics (KPIs/OKRs) did your work move?
+706,Profile/Bio,What are your preferred working hours?
+707,Experience & Projects,What tech stack did you use for {PROJECT}? (focus on numbers)
+708,Behavioral & Soft Skills,How do you communicate complex ideas simply? (STAR format)
+709,Skills & Tech Stack,What is your experience with serverless? (focus on numbers)
+710,Experience & Projects,How do you estimate and plan sprints? (STAR format)
+711,Behavioral & Soft Skills,How do you onboard quickly to new domains? (keep it under 60 seconds)
+712,Profile/Bio,What are your career goals for the next 2 years? (STAR format)
+713,Experience & Projects,"Describe a migration you executed (e.g., monolith to microservices). (please be concise)"
+714,Compensation,Are you open to equity or ESOPs?
+715,Behavioral & Soft Skills,How do you onboard quickly to new domains? (STAR format)
+716,Skills & Tech Stack,List your top 10 technical skills. (focus on numbers)
+717,Education,Are you pursuing further education? (please be concise)
+718,Education,What certifications complement your degree? (focus on numbers)
+719,Certifications,Have you expired certifications to renew? (please be concise)
+720,Profile/Bio,Tell me about Veera Mane. (detail your role)
+721,Skills & Tech Stack,What databases have you used? (STAR format)
+722,Behavioral & Soft Skills,How do you handle scope creep? (please be concise)
+723,Experience & Projects,How do you sunset legacy systems safely? (STAR format)
+724,Skills & Tech Stack,Which version control workflows do you prefer?
+725,Education,Where did you study {DEGREE}?
+726,Achievements & Impact,A time you automated a repetitive process—results?
+727,Skills & Tech Stack,Rate your proficiency in Java.
+728,Experience & Projects,What was your contribution to architecture decisions? (detail your role)
+729,Certifications,Why did you choose to certify in Redis? (please be concise)
+730,Experience & Projects,What’s a project you are most proud of and why? (please be concise)
+731,Experience & Projects,What was your contribution to architecture decisions? (keep it under 60 seconds)
+732,Skills & Tech Stack,What's your level in your proficiency in Azure.
+733,Experience & Projects,Walk me through your most impactful project. (STAR format)
+734,Education,How did your education prepare you for industry?
+735,Experience & Projects,What would you do differently in {PROJECT}? (keep it under 60 seconds)
+736,Profile/Bio,Which locations are you open to? (keep it under 60 seconds)
+737,Education,What extracurriculars built relevant skills? (detail your role)
+738,Career Gaps,Were there any personal projects during the gap?
+739,Certifications,What was the most challenging certification? (detail your role)
+740,Role/Company Fit & Match Score,Give a 90-day plan for succeeding as a Cloud Engineer.
+741,Role/Company Fit & Match Score,Explain why you're a strong fit for the Backend Engineer role.
+742,Skills & Tech Stack,Which design patterns do you commonly use? (STAR format)
+743,Skills & Tech Stack,Self-assess your proficiency in your proficiency in Tableau.
+744,Behavioral & Soft Skills,How do you give and receive feedback?
+745,Skills & Tech Stack,Which cloud platforms do you know (AWS/Azure/GCP)? (focus on numbers)
+746,Role/Company Fit & Match Score,What gaps would you close to excel as a DevOps Engineer?
+747,Portfolio & Repos,Do you maintain open-source projects?
+748,Profile/Bio,What makes you different from other candidates? (STAR format)
+749,Career Gaps,How did you plan your return to work? (focus on numbers)
+750,Profile/Bio,Tell me about Veera Mane. (STAR format)
+751,Certifications,How have certifications helped you at work? (detail your role)
+752,Experience & Projects,"Describe a migration you executed (e.g., monolith to microservices). (keep it under 60 seconds)"
+753,Skills & Tech Stack,What is your approach to code reviews?
+754,Skills & Tech Stack,How do you handle authentication and authorization? (STAR format)
+755,Certifications,Do you have security or compliance certifications? (focus on numbers)
+756,Profile/Bio,What are you working on right now? (please be concise)
+757,Skills & Tech Stack,Self-assess your proficiency in your proficiency in GraphQL.
+758,Career Gaps,What did you do during your gap to stay current? (STAR format)
+759,Skills & Tech Stack,How do you design APIs? (focus on numbers)
+760,Skills & Tech Stack,How would you rate your proficiency in RabbitMQ.
+761,Profile/Bio,What industries have you contributed to? (please be concise)
+762,Skills & Tech Stack,Rate your proficiency in Django.
+763,Experience & Projects,How do you document your projects? (STAR format)
+764,Skills & Tech Stack,Self-assess your proficiency in your proficiency in Kafka.
+765,Certifications,List your active certifications. (please be concise)
+766,Skills & Tech Stack,How do you containerize applications? (keep it under 60 seconds)
+767,Certifications,Why did you choose to certify in {TECH}? (please be concise)
+768,Education,What certifications complement your degree? (STAR format)
+769,Education,How did your education prepare you for industry? (detail your role)
+770,Behavioral & Soft Skills,How do you onboard quickly to new domains? (please be concise)
+771,Profile/Bio,Tell me about Veera Mane. (focus on numbers)
+772,Achievements & Impact,How have you improved team productivity? (keep it under 60 seconds)
+773,Learning & Growth,Which courses/books/podcasts do you recommend?
+774,Skills & Tech Stack,What is your experience with testing frameworks? (focus on numbers)
+775,Skills & Tech Stack,What's your level in your proficiency in Docker.
+776,Career Gaps,How do you address concerns about the gap? (please be concise)
+777,Career Gaps,How do you explain your career break from Jan 2022 to Aug 2022? (detail your role)
+778,Skills & Tech Stack,What is your experience with data pipelines?
+779,Experience & Projects,What did you learn from a failed experiment?
+780,Profile/Bio,How do you handle ambiguity?
+781,Skills & Tech Stack,Do you have experience with microservices?
+782,Behavioral & Soft Skills,Describe a conflict you resolved. (please be concise)
+783,Role/Company Fit & Match Score,"On a 0–100 scale, what's your match score for DevOps Engineer?"
+784,Certifications,Do you maintain CE credits (if applicable)? (detail your role)
+785,Skills & Tech Stack,Which design patterns do you commonly use? (keep it under 60 seconds)
+786,Skills & Tech Stack,How do you containerize applications? (please be concise)
+787,Skills & Tech Stack,What's your experience with security best practices? (please be concise)
+788,Career Gaps,Did you upskill or freelance during the gap? (keep it under 60 seconds)
+789,Career Gaps,How do you ensure a smooth ramp-up after a gap? (keep it under 60 seconds)
+790,Skills & Tech Stack,Which programming languages are you most comfortable with? (please be concise)
+791,Skills & Tech Stack,Rate your proficiency in {TECH}. (focus on numbers)
+792,Role/Company Fit & Match Score,How well do you fit the {ROLE} role?
+793,Skills & Tech Stack,What is your experience with data pipelines? (focus on numbers)
+794,Experience & Projects,Describe a feature you took from idea to production. (please be concise)
+795,Experience & Projects,What’s a project you are most proud of and why?
+796,Profile/Bio,How do you stay up to date with technology? (focus on numbers)
+797,Education,What extracurriculars built relevant skills? (focus on numbers)
+798,Skills & Tech Stack,How would you rate your proficiency in Django.
+799,Skills & Tech Stack,How do you containerize applications? (STAR format)
+800,Experience & Projects,How do you document your projects? (keep it under 60 seconds)
+801,Certifications,Do you have security or compliance certifications? (detail your role)
+802,Experience & Projects,How do you ensure maintainability and scalability? (focus on numbers)
+803,Skills & Tech Stack,Have you worked with message queues like Kafka or RabbitMQ? (STAR format)
+804,Portfolio & Repos,Share your portfolio URL.
+805,Skills & Tech Stack,Self-assess your proficiency in your proficiency in Java.
+806,Certifications,Are your cloud certifications current? (please be concise)
+807,Skills & Tech Stack,How would you rate your proficiency in PyTorch.
+808,Certifications,Why did you choose to certify in Redis? (STAR format)
+809,Role/Company Fit & Match Score,"On a 0–100 scale, what's your match score for SRE?"
+810,Bot & Meta,Can you summarize your experience in 30 seconds?
+811,Experience & Projects,"Describe a migration you executed (e.g., monolith to microservices). (STAR format)"
+812,Role/Company Fit & Match Score,"On a 0–100 scale, what's your match score for Full-Stack Developer?"
+813,Work Preferences & Availability,Do you prefer startup or enterprise environments?
+814,Work Preferences & Availability,Preferred communication channels?
+815,Skills & Tech Stack,What's your level in your proficiency in Django.
+816,Behavioral & Soft Skills,How do you balance speed vs quality?
+817,Education,What is your highest degree? (please be concise)
+818,Career Gaps,How do you explain your career break from Jan 2022 to Aug 2022?
+819,Skills & Tech Stack,How do you handle authentication and authorization?
+820,Profile/Bio,What are your long-term career aspirations? (please be concise)
+821,Profile/Bio,Give a brief bio of Veera Mane. (detail your role)
+822,Experience & Projects,Describe an example of stakeholder management. (keep it under 60 seconds)
+823,Experience & Projects,How did you measure success for {PROJECT}? (focus on numbers)
+824,Role/Company Fit & Match Score,Explain the match score breakdown by skill.
+825,Skills & Tech Stack,Rate your proficiency in Python. (focus on numbers)
+826,Skills & Tech Stack,What is your experience with data pipelines? (STAR format)
+827,Career Gaps,What motivated the break and what did you learn? (please be concise)
+828,Experience & Projects,Describe a time you optimized cost or latency. (detail your role)
+829,Career Gaps,How did you plan your return to work?
+830,Role/Company Fit & Match Score,What gaps would you close to excel as a Cloud Engineer?
+831,Profile/Bio,Are you open to remote or hybrid roles? (please be concise)
+832,Skills & Tech Stack,What is your experience with REST vs GraphQL? (focus on numbers)
+833,Profile/Bio,What makes you different from other candidates? (keep it under 60 seconds)
+834,Education,What academic projects are relevant to your roles? (please be concise)
+835,Experience & Projects,How do you document your projects? (detail your role)
+836,Skills & Tech Stack,What is your experience with data pipelines? (keep it under 60 seconds)
+837,Skills & Tech Stack,Self-assess your proficiency in your proficiency in MongoDB.
+838,Career Gaps,How do you ensure a smooth ramp-up after a gap? (focus on numbers)
+839,Behavioral & Soft Skills,How do you handle tight deadlines? (focus on numbers)
+840,Skills & Tech Stack,What is your core tech stack? (detail your role)
+841,Experience & Projects,Describe your contribution to the mobile app backend.
+842,Experience & Projects,How did you measure success for {PROJECT}? (keep it under 60 seconds)
+843,Experience & Projects,What challenges did you overcome in the mobile app backend?
+844,Profile/Bio,Do you have work authorization constraints? (detail your role)
+845,Profile/Bio,What domains have you worked in? (STAR format)
+846,Skills & Tech Stack,Which design patterns do you commonly use? (focus on numbers)
+847,Education,Do you mentor or teach others? (detail your role)
+848,Education,Where did you study B.Tech in Computer Science? (please be concise)
+849,Skills & Tech Stack,Self-assess your proficiency in your proficiency in Jenkins.
+850,Experience & Projects,What tech stack did you use for API platform?
+851,Experience & Projects,How do you handle incident response?
+852,Experience & Projects,What would you do differently in payment gateway integration? (please be concise)
+853,Career Gaps,How do you ensure a smooth ramp-up after a gap?
+854,Profile/Bio,What is your problem-solving approach? (please be concise)
+855,Experience & Projects,Describe a feature you took from idea to production. (keep it under 60 seconds)
+856,Profile/Bio,What makes you different from other candidates? (detail your role)
+857,Experience & Projects,What trade-offs did you make in the e-commerce platform?
+858,Skills & Tech Stack,What is your core tech stack? (focus on numbers)
+859,Profile/Bio,What is your problem-solving approach? (keep it under 60 seconds)
+860,Behavioral & Soft Skills,How do you handle scope creep? (detail your role)
+861,Achievements & Impact,List your top professional achievements. (please be concise)
+862,Profile/Bio,Can you summarize your career journey so far? (STAR format)
+863,Experience & Projects,How did you collaborate with designers/product managers? (please be concise)
+864,Skills & Tech Stack,Walk me through your core strengths and ecosystem.
+865,Achievements & Impact,Share a time you reduced costs or increased revenue.
+866,Achievements & Impact,Have you filed any patents or disclosures? (detail your role)
+867,Portfolio & Repos,Which project best showcases your coding style?
+868,Certifications,How do you validate hands-on skills beyond certs?
+869,Bot & Meta,How do I ask you about {TOPIC}?
+870,Profile/Bio,What roles are you currently targeting? (STAR format)
+871,Education,What was your GPA/percentage (if you share)? (focus on numbers)
+872,Experience & Projects,How did you collaborate with designers/product managers? (keep it under 60 seconds)
+873,Role/Company Fit & Match Score,What similar roles have you succeeded in before?
+874,Skills & Tech Stack,Have you worked with message queues like Kafka or RabbitMQ? (detail your role)
+875,Skills & Tech Stack,Have you built real-time systems (WebSockets/streaming)? (keep it under 60 seconds)
+876,Experience & Projects,What metrics (KPIs/OKRs) did your work move? (please be concise)
+877,Skills & Tech Stack,How do you ensure data quality? (detail your role)
+878,Work Preferences & Availability,When can you join?
+879,Experience & Projects,Describe a zero-to-one project you led. (focus on numbers)
+880,Skills & Tech Stack,What's your level in your proficiency in TensorFlow.
+881,Skills & Tech Stack,Rate your proficiency in Flask.
+882,Profile/Bio,What is your leadership style? (STAR format)
+883,Profile/Bio,How do teammates describe you? (detail your role)
+884,Experience & Projects,How large was the team and what was the timeline?
+885,Skills & Tech Stack,How do you ensure data quality? (focus on numbers)
+886,Role/Company Fit & Match Score,Explain why you're a strong fit for the SRE role.
+887,Skills & Tech Stack,Which version control workflows do you prefer? (detail your role)
+888,Role/Company Fit & Match Score,Map your skills to the Backend Engineer job description.
+889,Experience & Projects,How do you handle incident response? (STAR format)
+890,Skills & Tech Stack,What is your experience with REST vs GraphQL? (detail your role)
+891,Experience & Projects,What was your contribution to architecture decisions? (please be concise)
+892,Career Gaps,What did you do during your gap to stay current? (detail your role)
+893,Profile/Bio,How would you describe yourself in one paragraph? (STAR format)
+894,Skills & Tech Stack,What is your approach to code reviews? (STAR format)
+895,Role/Company Fit & Match Score,What skills align with this JD and what are gaps?
+896,Profile/Bio,What are your top strengths in one line? (keep it under 60 seconds)
+897,Certifications,Do you maintain CE credits (if applicable)? (keep it under 60 seconds)
+898,Experience & Projects,Describe a zero-to-one project you led. (detail your role)
+899,Career Gaps,How do you explain your career break from {DATE_FROM} to {DATE_TO}? (detail your role)
+900,Career Gaps,Do you have any career gaps?
+901,Portfolio & Repos,Highlight pinned repositories relevant to {ROLE}.
+902,Profile/Bio,What impact have you delivered in your recent roles? (keep it under 60 seconds)
+903,Skills & Tech Stack,What is your experience with serverless? (STAR format)
+904,Skills & Tech Stack,Self-assess your proficiency in your proficiency in PyTorch.
+905,Skills & Tech Stack,What CI/CD tools have you worked with? (focus on numbers)
+906,Learning & Growth,How do you reflect on and document learnings?
+907,Education,Have you published papers or blogs? (STAR format)
+908,Skills & Tech Stack,How do you handle caching layers? (STAR format)
+909,Skills & Tech Stack,How would you rate your proficiency in FastAPI.
+910,Experience & Projects,What performance improvements did you achieve? (detail your role)
+911,Behavioral & Soft Skills,How do you communicate complex ideas simply? (keep it under 60 seconds)
+912,Certifications,Have you expired certifications to renew?
+913,Profile/Bio,How do you prioritize tasks? (STAR format)
+914,Experience & Projects,Which metrics improved due to the data warehouse modernization?
+915,Profile/Bio,Are you open to remote or hybrid roles? (STAR format)
+916,Profile/Bio,What are your career goals for the next 2 years? (focus on numbers)
+917,Role/Company Fit & Match Score,What evidence supports your fit for ML Engineer?
+918,Career Gaps,How do you ensure a smooth ramp-up after a gap? (please be concise)
+919,Profile/Bio,What is your leadership style?
+920,Certifications,Why did you choose to certify in Redis?
+921,Achievements & Impact,What is a metric you significantly improved? (please be concise)
+922,Skills & Tech Stack,Rate your proficiency in Hadoop.
+923,Skills & Tech Stack,What is your experience with testing frameworks? (STAR format)
+924,Skills & Tech Stack,Rate your proficiency in MongoDB.
+925,Experience & Projects,What trade-offs did you make in the CI/CD pipeline overhaul?
+926,Education,What was your GPA/percentage (if you share)? (keep it under 60 seconds)
+927,Profile/Bio,What are your preferred working hours? (keep it under 60 seconds)
+928,Achievements & Impact,Have you spoken at conferences or meetups?
+929,Achievements & Impact,List your top professional achievements. (detail your role)
+930,Achievements & Impact,Share a quantifiable impact you delivered. (please be concise)
+931,Experience & Projects,How did you measure success for real-time analytics system? (focus on numbers)
+932,Certifications,How have certifications helped you at work? (focus on numbers)
+933,Experience & Projects,What challenges did you overcome in the payment gateway integration?
+934,Experience & Projects,Describe your contribution to the payment gateway integration.
+935,Profile/Bio,What are your top strengths in one line? (STAR format)
+936,Education,What certifications complement your degree? (keep it under 60 seconds)
+937,Behavioral & Soft Skills,How do you mentor or coach others?
+938,Skills & Tech Stack,Which cloud platforms do you know (AWS/Azure/GCP)? (please be concise)
+939,Career Gaps,How do you explain your career break from Jan 2022 to Aug 2022? (STAR format)
+940,Profile/Bio,How do you handle feedback? (STAR format)
+941,Experience & Projects,What trade-offs did you make in the microservices migration?
+942,Behavioral & Soft Skills,How do you handle tight deadlines? (detail your role)
+943,Experience & Projects,What challenges did you overcome in the e-commerce platform?
+944,Skills & Tech Stack,"How do you implement observability (logs, metrics, traces)? (STAR format)"
+945,Experience & Projects,Describe a time you optimized cost or latency. (keep it under 60 seconds)
+946,Skills & Tech Stack,Could you summarize your core competencies and toolchain.
+947,Experience & Projects,What tech stack did you use for {PROJECT}?
+948,Certifications,How do you validate hands-on skills beyond certs? (please be concise)
+949,Skills & Tech Stack,Rate your proficiency in Python.
+950,Profile/Bio,What's a quick overview of your professional background? (detail your role)
+951,Experience & Projects,How did you ensure reliability and uptime? (STAR format)
+952,Skills & Tech Stack,What is your experience with REST vs GraphQL? (please be concise)
+953,Skills & Tech Stack,Which cloud platforms do you know (AWS/Azure/GCP)? (keep it under 60 seconds)
+954,Experience & Projects,Describe a zero-to-one project you led. (please be concise)
+955,Behavioral & Soft Skills,Describe a conflict you resolved.
+956,Profile/Bio,How do you handle feedback?
+957,Work Preferences & Availability,Are you open to relocation to Pune?
+958,Skills & Tech Stack,What is your experience with REST vs GraphQL? (STAR format)
+959,Achievements & Impact,Have you won any awards or recognitions? (keep it under 60 seconds)
+960,Certifications,Are your cloud certifications current? (detail your role)
+961,Profile/Bio,Which locations are you open to? (STAR format)
+962,Role/Company Fit & Match Score,What gaps would you close to excel as a Product Engineer?
+963,Experience & Projects,What challenges did you overcome in the observability stack revamp?
+964,Achievements & Impact,Have you won any awards or recognitions? (please be concise)
+965,Skills & Tech Stack,"Have you implemented Infrastructure as Code (e.g., Terraform)? (keep it under 60 seconds)"
+966,Experience & Projects,What trade-offs did you make and why?
+967,Skills & Tech Stack,Have you built real-time systems (WebSockets/streaming)?
+968,Experience & Projects,How did you collaborate with designers/product managers? (STAR format)
+969,Skills & Tech Stack,What is your experience with data pipelines? (please be concise)
+970,Achievements & Impact,Share a quantifiable impact you delivered. (STAR format)
+971,Profile/Bio,What's a quick overview of your professional background? (STAR format)
+972,Skills & Tech Stack,What databases have you used? (please be concise)
+973,Role/Company Fit & Match Score,Map your skills to the Frontend Engineer job description.
+974,Education,What was your specialization? (detail your role)
+975,Experience & Projects,How do you ensure accessibility in your products? (STAR format)
+976,Certifications,Are your cloud certifications current? (focus on numbers)
+977,Skills & Tech Stack,How do you containerize applications?
+978,Profile/Bio,How would you describe yourself in one paragraph? (keep it under 60 seconds)
+979,Role/Company Fit & Match Score,"On a 0–100 scale, what's your match score for Frontend Engineer?"
+980,Achievements & Impact,Have you mentored juniors or led a guild? (please be concise)
+981,Career Gaps,How do you explain your career break from {DATE_FROM} to {DATE_TO}? (keep it under 60 seconds)
+982,Work Preferences & Availability,Open to weekend or flexible hours if needed?
+983,Profile/Bio,Give a brief bio of {NAME}. (focus on numbers)
+984,Skills & Tech Stack,Which design patterns do you commonly use? (please be concise)
+985,Skills & Tech Stack,What backend frameworks have you used? (keep it under 60 seconds)
+986,Profile/Bio,How would you describe yourself in one paragraph? (focus on numbers)
+987,Skills & Tech Stack,Rate your proficiency in Jenkins.
+988,Skills & Tech Stack,How would you rate your proficiency in GraphQL.
+989,Skills & Tech Stack,What's your experience with security best practices? (focus on numbers)
+990,Role/Company Fit & Match Score,"On a 0–100 scale, what's your match score for Data Engineer?"
+991,Experience & Projects,What was your contribution to architecture decisions?
+992,Education,Have you completed online courses or MOOCs?
+993,Achievements & Impact,Share a time you reduced costs or increased revenue. (focus on numbers)
+994,Skills & Tech Stack,Self-assess your proficiency in your proficiency in Flask.
+995,Achievements & Impact,What is a metric you significantly improved? (keep it under 60 seconds)
+996,Role/Company Fit & Match Score,"On a 0–100 scale, what's your match score for Cloud Engineer?"
+997,Experience & Projects,What did you learn from a failed experiment? (keep it under 60 seconds)
+998,Career Gaps,Were there any personal projects during the gap? (keep it under 60 seconds)
+999,Profile/Bio,Give a brief bio of Veera Mane. (STAR format)
+1000,Experience & Projects,How do you ensure maintainability and scalability?
+1001,Profile/Bio,Give a brief bio of {NAME}. (please be concise)
+1002,Experience & Projects,What was your role in the {PROJECT} project? (please be concise)
+1003,Experience & Projects,How do you de-risk complex deliveries?
+1004,Experience & Projects,Describe a feature you took from idea to production. (STAR format)
+1005,Career Gaps,Do you have any career gaps? (detail your role)
+1006,Profile/Bio,Are you open to remote or hybrid roles? (focus on numbers)
+1007,Experience & Projects,How do you handle requirement changes mid-project? (focus on numbers)
+1008,Education,Did you receive any academic awards? (focus on numbers)
+1009,Experience & Projects,Which metrics improved due to the e-commerce platform?
+1010,Profile/Bio,What are your career goals for the next 2 years? (please be concise)
+1011,Skills & Tech Stack,How do you handle authentication and authorization? (detail your role)
+1012,Profile/Bio,Can you summarize your career journey so far? (detail your role)
+1013,Compensation,What is your current CTC?
+1014,Certifications,List your active certifications. (keep it under 60 seconds)
+1015,Role/Company Fit & Match Score,Map your skills to the DevOps Engineer job description.
+1016,Experience & Projects,What challenges did you overcome in the data warehouse modernization?
+1017,Education,Do you mentor or teach others? (please be concise)
+1018,Education,What is your highest degree? (focus on numbers)
+1019,Profile/Bio,Elevator pitch: who are you and what do you do? (STAR format)
+1020,Experience & Projects,What tech stack did you use for API platform? (focus on numbers)
+1021,Experience & Projects,Describe your contribution to the API platform.
+1022,Experience & Projects,What would you do differently in {PROJECT}? (STAR format)
+1023,Profile/Bio,What's a quick overview of your professional background? (keep it under 60 seconds)
+1024,Behavioral & Soft Skills,Describe a conflict you resolved. (keep it under 60 seconds)
+1025,Skills & Tech Stack,How would you rate your proficiency in Java.
+1026,Profile/Bio,How do teammates describe you? (please be concise)
+1027,Skills & Tech Stack,Which version control workflows do you prefer? (please be concise)
+1028,Career Gaps,Were there any personal projects during the gap? (STAR format)
+1029,Career Gaps,How do you explain your career break from Jan 2022 to Aug 2022? (please be concise)
+1030,Skills & Tech Stack,What is your core tech stack? (STAR format)
+1031,Experience & Projects,Which metrics improved due to the microservices migration?
+1032,Experience & Projects,Describe a time you optimized cost or latency.
+1033,Profile/Bio,What are your long-term career aspirations? (detail your role)
+1034,Education,What extracurriculars built relevant skills? (please be concise)
+1035,Experience & Projects,How do you handle requirement changes mid-project? (STAR format)
+1036,Skills & Tech Stack,Do you have experience with microservices? (STAR format)
+1037,Skills & Tech Stack,"How do you orchestrate containers (e.g., Kubernetes)? (focus on numbers)"
+1038,Experience & Projects,Describe an example of stakeholder management.
+1039,Achievements & Impact,A time you automated a repetitive process—results? (detail your role)
+1040,Career Gaps,What did you do during your gap to stay current? (please be concise)
+1041,Experience & Projects,What trade-offs did you make in the API platform?
+1042,Skills & Tech Stack,Rate your proficiency in Python. (STAR format)
+1043,Experience & Projects,How did you ensure reliability and uptime?
+1044,Education,What academic projects are relevant to your roles? (keep it under 60 seconds)
+1045,Career Gaps,Did you upskill or freelance during the gap?
+1046,Skills & Tech Stack,Self-assess your proficiency in your proficiency in Kubernetes.
+1047,Role/Company Fit & Match Score,Give a 90-day plan for succeeding as a Product Engineer.
+1048,Education,Do you mentor or teach others? (STAR format)
+1049,Education,Have you completed online courses or MOOCs? (focus on numbers)
+1050,Role/Company Fit & Match Score,Give a 90-day plan for succeeding as a SRE.
+1051,Skills & Tech Stack,What ML/DL frameworks have you used? (detail your role)
+1052,Skills & Tech Stack,How do you handle caching layers? (focus on numbers)
+1053,Experience & Projects,"Describe a migration you executed (e.g., monolith to microservices)."
+1054,Skills & Tech Stack,Rate your proficiency in Kubernetes.
+1055,Skills & Tech Stack,Which version control workflows do you prefer? (STAR format)
+1056,Learning & Growth,What are you learning right now?
+1057,Profile/Bio,What domains have you worked in? (detail your role)
+1058,Skills & Tech Stack,How do you handle authentication and authorization? (focus on numbers)
+1059,Career Gaps,Did you upskill or freelance during the gap? (STAR format)
+1060,Skills & Tech Stack,What is your approach to code reviews? (focus on numbers)
+1061,Career Gaps,How did you plan your return to work? (detail your role)
+1062,Profile/Bio,What roles are you currently targeting? (please be concise)
+1063,Experience & Projects,What tech stack did you use for {PROJECT}? (please be concise)
+1064,Experience & Projects,What performance improvements did you achieve? (keep it under 60 seconds)
+1065,Behavioral & Soft Skills,How do you handle tight deadlines? (STAR format)
+1066,Education,What thesis or capstone did you complete? (keep it under 60 seconds)
+1067,Experience & Projects,How did you ensure reliability and uptime? (please be concise)
+1068,Skills & Tech Stack,What databases have you used?
+1069,Career Gaps,Did you upskill or freelance during the gap? (please be concise)
+1070,Behavioral & Soft Skills,How do you manage up? (keep it under 60 seconds)
+1071,Achievements & Impact,Have you won any awards or recognitions?
+1072,Skills & Tech Stack,Which design patterns do you commonly use? (detail your role)
+1073,Role/Company Fit & Match Score,Compute a match score for {ROLE} based on your skills.
+1074,Experience & Projects,What would you refactor if you revisited the payment gateway integration?
+1075,Experience & Projects,Describe an example of stakeholder management. (detail your role)
+1076,Profile/Bio,What domains have you worked in? (keep it under 60 seconds)
+1077,Skills & Tech Stack,How do you handle caching layers? (keep it under 60 seconds)
+1078,Profile/Bio,Give a brief bio of Veera Mane.
+1079,Experience & Projects,How do you sunset legacy systems safely? (please be concise)
+1080,Skills & Tech Stack,Which programming languages are you most comfortable with? (focus on numbers)
+1081,Skills & Tech Stack,How would you rate your proficiency in Kafka.
+1082,Profile/Bio,What industries have you contributed to? (STAR format)
+1083,Career Gaps,How do you explain your career break from {DATE_FROM} to {DATE_TO}? (STAR format)
+1084,Skills & Tech Stack,List your top 10 technical skills.
+1085,Certifications,Which certification are you planning next? (detail your role)
+1086,Career Gaps,How do you address concerns about the gap? (STAR format)
+1087,Career Gaps,What did you do during your gap to stay current?
+1088,Education,What academic projects are relevant to your roles? (focus on numbers)
+1089,Experience & Projects,Give an example of cross-team collaboration. (please be concise)
+1090,Profile/Bio,List three words that best describe you professionally. (detail your role)
+1091,Experience & Projects,What would you do differently in {PROJECT}?
+1092,Skills & Tech Stack,Rate your proficiency in RabbitMQ.
+1093,Skills & Tech Stack,What backend frameworks have you used? (focus on numbers)
+1094,Behavioral & Soft Skills,Describe a time you influenced without authority. (keep it under 60 seconds)
+1095,Skills & Tech Stack,List your top 10 technical skills. (STAR format)
+1096,Bot & Meta,What can this portfolio chatbot do?
+1097,Experience & Projects,How do you handle incident response? (focus on numbers)
+1098,Achievements & Impact,How have you improved team productivity? (focus on numbers)
+1099,Skills & Tech Stack,How would you rate your proficiency in TensorFlow.
+1100,Profile/Bio,Give a brief bio of Veera Mane. (focus on numbers)
+1101,Profile/Bio,Which locations are you open to? (please be concise)
+1102,Skills & Tech Stack,What backend frameworks have you used?
+1103,Work Preferences & Availability,What is your notice period?
+1104,Profile/Bio,What makes you different from other candidates?
+1105,Education,What is your highest degree? (detail your role)
+1106,Behavioral & Soft Skills,How do you give and receive feedback? (please be concise)
+1107,Skills & Tech Stack,Self-assess your proficiency in your proficiency in Git.
+1108,Education,How did your education prepare you for industry? (keep it under 60 seconds)
+1109,Skills & Tech Stack,What is your core tech stack? (keep it under 60 seconds)
+1110,Experience & Projects,How do you handle requirement changes mid-project?
+1111,Behavioral & Soft Skills,Describe a failure and what you learned. (keep it under 60 seconds)
+1112,Skills & Tech Stack,What's your level in your proficiency in Flask.
+1113,Skills & Tech Stack,"Have you implemented Infrastructure as Code (e.g., Terraform)? (focus on numbers)"
+1114,Portfolio & Repos,Share your GitHub or GitLab profile.
+1115,Skills & Tech Stack,Have you worked with message queues like Kafka or RabbitMQ? (keep it under 60 seconds)
+1116,Skills & Tech Stack,What is your experience with serverless?
+1117,Profile/Bio,What are your top strengths in one line? (please be concise)
+1118,Experience & Projects,What tech stack did you use for {PROJECT}? (keep it under 60 seconds)
+1119,Work Preferences & Availability,Preferred management style?
+1120,Experience & Projects,What performance improvements did you achieve? (STAR format)
+1121,Profile/Bio,What is your unique value proposition? (keep it under 60 seconds)
+1122,Experience & Projects,What tech stack did you use for {PROJECT}? (STAR format)
+1123,Certifications,Have you expired certifications to renew? (detail your role)
+1124,Experience & Projects,How did you collaborate with designers/product managers? (focus on numbers)
+1125,Education,What extracurriculars built relevant skills?
+1126,Experience & Projects,Describe an example of stakeholder management. (please be concise)
+1127,Skills & Tech Stack,What is your experience with REST vs GraphQL?
+1128,Skills & Tech Stack,Have you built real-time systems (WebSockets/streaming)? (STAR format)
+1129,Education,Where did you study {DEGREE}? (detail your role)
+1130,Profile/Bio,How would you describe yourself in one paragraph? (please be concise)
+1131,Role/Company Fit & Match Score,What differentiators increase your match score?
+1132,Experience & Projects,How do you internationalize/localize applications? (STAR format)
+1133,Skills & Tech Stack,Rate your proficiency in GraphQL.
+1134,Career Gaps,Do you have any career gaps? (focus on numbers)
+1135,Education,Where did you study {DEGREE}? (STAR format)
+1136,Profile/Bio,What is your leadership style? (detail your role)
+1137,Role/Company Fit & Match Score,What gaps would you close to excel as a Backend Engineer?
+1138,Work Preferences & Availability,Do you require visa sponsorship?
+1139,Behavioral & Soft Skills,Describe a time you influenced without authority. (STAR format)
+1140,Skills & Tech Stack,What's your level in your proficiency in Java.
+1141,Career Gaps,How do you explain your career break from {DATE_FROM} to {DATE_TO}? (focus on numbers)
+1142,Portfolio & Repos,Do you have code samples or gists?
+1143,Achievements & Impact,Share a time you reduced costs or increased revenue. (STAR format)
+1144,Experience & Projects,What tech stack did you use for API platform? (STAR format)
+1145,Education,Have you published papers or blogs? (please be concise)
+1146,Education,What certifications complement your degree?
+1147,Profile/Bio,What are your career goals for the next 2 years? (keep it under 60 seconds)
+1148,Skills & Tech Stack,What's your level in your proficiency in Git.
+1149,Experience & Projects,What would you refactor if you revisited the CI/CD pipeline overhaul?
+1150,Role/Company Fit & Match Score,Explain why you're a strong fit for the Full-Stack Developer role.
+1151,Experience & Projects,How do you estimate and plan sprints? (keep it under 60 seconds)
+1152,Career Gaps,How did you plan your return to work? (STAR format)
+1153,Certifications,Do you have security or compliance certifications? (please be concise)
+1154,Experience & Projects,How did you measure success for real-time analytics system? (keep it under 60 seconds)
+1155,Profile/Bio,How do you prioritize tasks? (keep it under 60 seconds)
+1156,Education,Did you receive any academic awards? (STAR format)
+1157,Experience & Projects,What’s a project you are most proud of and why? (keep it under 60 seconds)
+1158,Experience & Projects,What was your role in the API platform project? (detail your role)
+1159,Experience & Projects,What trade-offs did you make in the data warehouse modernization?
+1160,Education,What thesis or capstone did you complete? (STAR format)
+1161,Skills & Tech Stack,What databases have you used? (detail your role)
+1162,Profile/Bio,What domains have you worked in? (please be concise)
+1163,Career Gaps,Were there any personal projects during the gap? (detail your role)
+1164,Profile/Bio,What is your unique value proposition? (please be concise)
+1165,Education,Where did you study {DEGREE}? (please be concise)
+1166,Profile/Bio,How do you handle feedback? (detail your role)
+1167,Experience & Projects,What would you do differently in {PROJECT}? (please be concise)
+1168,Profile/Bio,List three words that best describe you professionally. (focus on numbers)
+1169,Experience & Projects,What was your role in the {PROJECT} project? (focus on numbers)
+1170,Experience & Projects,What did you learn from a failed experiment? (focus on numbers)
+1171,Experience & Projects,Describe a zero-to-one project you led.
+1172,Experience & Projects,How do you internationalize/localize applications? (focus on numbers)
+1173,Role/Company Fit & Match Score,Give a 90-day plan for succeeding as a Data Engineer.
+1174,Role/Company Fit & Match Score,Explain why you're a strong fit for the Product Engineer role.
+1175,Role/Company Fit & Match Score,Map your skills to the Full-Stack Developer job description.
+1176,Skills & Tech Stack,What's your level in your proficiency in Jenkins.
+1177,Experience & Projects,What were the biggest challenges in {PROJECT}? (focus on numbers)
+1178,Skills & Tech Stack,Self-assess your proficiency in your proficiency in FastAPI.
+1179,Skills & Tech Stack,What ML/DL frameworks have you used? (please be concise)
+1180,Experience & Projects,How did you collaborate with designers/product managers?
+1181,Career Gaps,What motivated the break and what did you learn? (detail your role)
+1182,Achievements & Impact,List your top professional achievements. (STAR format)
+1183,Certifications,Do you maintain CE credits (if applicable)? (please be concise)
+1184,Portfolio & Repos,Any technical blogs or talks to share?
+1185,Skills & Tech Stack,Rate your proficiency in {TECH}. (STAR format)
+1186,Behavioral & Soft Skills,How do you foster inclusion and collaboration?
+1187,Skills & Tech Stack,Rate your proficiency in Tableau.
+1188,Skills & Tech Stack,Rate your proficiency in Git.
+1189,Profile/Bio,What are your top strengths in one line? (detail your role)
+1190,Experience & Projects,What would you refactor if you revisited the microservices migration?
+1191,Certifications,List your active certifications. (STAR format)
+1192,Skills & Tech Stack,How do you design APIs? (please be concise)
+1193,Profile/Bio,Give a brief bio of {NAME}. (detail your role)
+1194,Role/Company Fit & Match Score,"On a 0–100 scale, what's your match score for Product Engineer?"
+1195,Skills & Tech Stack,What databases have you used? (keep it under 60 seconds)
+1196,Experience & Projects,Walk me through your most impactful project. (keep it under 60 seconds)
+1197,Skills & Tech Stack,What frontend frameworks have you used?
+1198,Experience & Projects,Walk me through your most impactful project. (focus on numbers)
+1199,Certifications,Do you maintain CE credits (if applicable)? (focus on numbers)
+1200,Experience & Projects,How do you handle incident response? (keep it under 60 seconds)
