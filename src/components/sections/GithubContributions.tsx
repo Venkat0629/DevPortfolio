@@ -68,8 +68,8 @@ const GithubContributions: React.FC<GithubContributionsProps> = ({
   }, [username]);
 
   // Compute the date range for the current view
-  // If today is Feb 13, 2026 and yearOffset=0 → Feb 13, 2025 to Feb 13, 2026
-  // If yearOffset=-1 → Feb 13, 2024 to Feb 13, 2025
+  // If today is Feb 13, 2026 and yearOffset=0 -> Feb 13, 2025 to Feb 13, 2026
+  // If yearOffset=-1 -> Feb 13, 2024 to Feb 13, 2025
   const { rangeStart, rangeEnd, rangeLabel } = useMemo(() => {
     const now = new Date();
     const endDate = new Date(now);
@@ -83,7 +83,7 @@ const GithubContributions: React.FC<GithubContributionsProps> = ({
     const endMonth = MONTHS[endDate.getMonth()];
     const startYearShort = String(startDate.getFullYear()).slice(-2);
     const endYearShort = String(endDate.getFullYear()).slice(-2);
-    const label = `${startMonth} ${startYearShort} — ${endMonth} ${endYearShort}`;
+    const label = `${startMonth} ${startYearShort} - ${endMonth} ${endYearShort}`;
 
     return { rangeStart: startDate, rangeEnd: endDate, rangeLabel: label };
   }, [yearOffset]);
@@ -226,14 +226,14 @@ const GithubContributions: React.FC<GithubContributionsProps> = ({
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="bg-card rounded-lg p-6 shadow-lg"
+          className="bg-card rounded-lg p-4 sm:p-6 shadow-lg"
         >
           {/* Header: total + period navigation */}
           <div className="flex flex-col sm:flex-row items-center justify-between mb-4 gap-3">
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <Github className="w-4 h-4" />
               <span className="font-medium">{username}</span>
-              <span className="mx-1">·</span>
+              <span className="mx-1">&middot;</span>
               <span className="text-primary font-semibold">
                 {totalContributions} contributions
               </span>
@@ -265,8 +265,9 @@ const GithubContributions: React.FC<GithubContributionsProps> = ({
             </div>
           </div>
 
-          {/* Month labels — positioned based on actual week data */}
-          <div className="flex mb-2" style={{ paddingLeft: '36px' }}>
+          {/* Month labels positioned based on actual week data */}
+          <div className="mb-2 overflow-x-auto">
+            <div className="flex min-w-max" style={{ paddingLeft: '36px' }}>
             {(() => {
               const totalWeeks = weeks.length;
               const labels: React.ReactNode[] = [];
@@ -285,12 +286,13 @@ const GithubContributions: React.FC<GithubContributionsProps> = ({
               });
               return labels;
             })()}
+            </div>
           </div>
 
           {/* Contribution grid */}
-          <div className="flex gap-[3px]">
+          <div className="flex gap-[3px] overflow-x-auto pb-2">
             {/* Day labels */}
-            <div className="flex flex-col gap-[3px] mr-1" style={{ minWidth: '28px' }}>
+            <div className="hidden sm:flex flex-col gap-[3px] mr-1" style={{ minWidth: '28px' }}>
               {[0, 1, 2, 3, 4, 5, 6].map((dayIdx) => (
                 <div key={dayIdx} className="h-[13px] flex items-center justify-end">
                   <span className="text-[10px] text-muted-foreground leading-none">
@@ -303,7 +305,7 @@ const GithubContributions: React.FC<GithubContributionsProps> = ({
             </div>
 
             {/* Contribution squares */}
-            <div className="flex gap-[3px] flex-1 overflow-x-auto">
+            <div className="flex gap-[3px] flex-1 min-w-max">
               {weeks.map((week, weekIndex) => (
                 <div key={weekIndex} className="flex flex-col gap-[3px]">
                   {week.days.map((day, dayIndex) => (
@@ -329,7 +331,7 @@ const GithubContributions: React.FC<GithubContributionsProps> = ({
           </div>
 
           {/* Legend + GitHub link row */}
-          <div className="flex items-center justify-between mt-4">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mt-4 gap-3">
             <div className="flex items-center gap-2">
               <span className="text-xs text-muted-foreground">Less</span>
               <div className="flex gap-1">
@@ -348,7 +350,7 @@ const GithubContributions: React.FC<GithubContributionsProps> = ({
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground
-                rounded-lg hover:bg-primary/90 transition-colors text-sm"
+                rounded-lg hover:bg-primary/90 transition-colors text-sm w-full sm:w-auto justify-center"
             >
               <Github className="w-4 h-4" />
               View on GitHub

@@ -206,7 +206,7 @@ export function ChatWidget({ className }: ChatWidgetProps) {
   };
 
   return (
-    <div className={cn("fixed bottom-4 right-4 z-50", className)}>
+    <div className={cn('fixed bottom-3 right-3 sm:bottom-4 sm:right-4 z-20', className)}>
       {/* Welcome Toast Notification */}
       <AnimatePresence>
         {showWelcomeNotification && (
@@ -220,7 +220,7 @@ export function ChatWidget({ className }: ChatWidgetProps) {
               damping: 28,
               mass: 0.8
             }}
-            className="absolute bottom-24 right-0 flex items-start gap-3 cursor-pointer group"
+            className="absolute bottom-20 right-0 sm:bottom-24 flex items-start gap-2 sm:gap-3 cursor-pointer group max-w-[min(20rem,calc(100vw-1.5rem))] sm:max-w-none"
             onClick={() => {
               setShowWelcomeNotification(false);
               setIsOpen(true);
@@ -239,7 +239,7 @@ export function ChatWidget({ className }: ChatWidgetProps) {
             
             {/* Message bubble */}
             <div className="relative">
-              <div className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl rounded-tl-none shadow-xl p-3 min-w-[200px] max-w-[280px]">
+              <div className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl rounded-tl-none shadow-xl p-3 min-w-0 w-[min(16rem,calc(100vw-4rem))] sm:min-w-[200px] sm:max-w-[280px] sm:w-auto">
                 <div className="flex items-center justify-between mb-1">
                   <span className="text-xs font-semibold text-gray-900 dark:text-white">Lumi</span>
                   <span className="text-xs text-gray-500 dark:text-gray-400">Just now</span>
@@ -317,7 +317,7 @@ export function ChatWidget({ className }: ChatWidgetProps) {
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0.9, opacity: 0, y: 20 }}
             transition={{ type: "spring", stiffness: 300, damping: 30 }}
-            className="bg-card border border-border rounded-2xl shadow-2xl w-96 h-[600px] flex flex-col overflow-hidden"
+            className="bg-card border border-border rounded-2xl shadow-2xl w-[min(24rem,calc(100vw-1rem))] sm:w-96 h-[75dvh] max-h-[600px] sm:h-[600px] flex flex-col overflow-hidden"
           >
             {/* Header */}
             <div className="bg-primary-500 text-white p-4 flex items-center justify-between">
@@ -394,8 +394,8 @@ export function ChatWidget({ className }: ChatWidgetProps) {
                               onClick={() => executeAction(action)}
                               className="w-full bg-primary-500 hover:bg-primary-600 text-white text-xs px-3 py-2 rounded-lg transition-colors"
                             >
-                              {action === 'openResume' && '📄 View Resume'}
-                              {action === 'openContactForm' && '✉️ Contact Veera'}
+                              {action === 'openResume' && 'View Resume'}
+                              {action === 'openContactForm' && 'Contact Veera'}
                             </button>
                           ))}
                           {navActions.map((nav, index) => (
@@ -404,7 +404,7 @@ export function ChatWidget({ className }: ChatWidgetProps) {
                               onClick={() => executeNav(nav)}
                               className="w-full bg-accent-500 hover:bg-accent-600 text-white text-xs px-3 py-2 rounded-lg transition-colors"
                             >
-                              📍 Navigate to Section
+                              Navigate to Section
                             </button>
                           ))}
                         </div>

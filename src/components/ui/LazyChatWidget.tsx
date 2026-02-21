@@ -11,7 +11,7 @@ export function LazyChatWidget({ className }: LazyChatWidgetProps) {
   return (
     <Suspense 
       fallback={
-        <div className={`fixed bottom-4 right-4 z-50 ${className}`}>
+        <div className={`fixed bottom-3 right-3 sm:bottom-4 sm:right-4 z-20 ${className}`}>
           <div className="bg-primary-500 text-white rounded-full p-4 shadow-lg animate-pulse" title="Lumi - Professional portfolio guide">
             <Loader2 className="w-6 h-6 animate-spin" />
           </div>

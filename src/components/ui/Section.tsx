@@ -13,15 +13,11 @@ interface SectionProps extends HTMLAttributes<HTMLElement> {
 
 const Section = forwardRef<HTMLElement, SectionProps>(
   ({ className, title, subtitle, centered = true, fullHeight = false, children, id, ...props }, ref) => {
-    const { ref: revealRef, isVisible } = useScrollReveal<HTMLElement>();
+    const { ref: revealRef, isVisible } = useScrollReveal<HTMLDivElement>();
 
     return (
       <section
-        ref={(node) => {
-          if (typeof ref === 'function') ref(node);
-          else if (ref) ref.current = node;
-          (revealRef as React.MutableRefObject<HTMLElement | null>).current = node;
-        }}
+        ref={ref}
         id={id}
         className={cn(
           'section-padding relative overflow-hidden',
@@ -30,7 +26,7 @@ const Section = forwardRef<HTMLElement, SectionProps>(
         )}
         {...props}
       >
-        <div className="container-custom">
+        <div ref={revealRef} className="container-custom">
           {(title || subtitle) && (
             <motion.div
               className={cn('mb-8 md:mb-10', centered && 'text-center')}

@@ -35,6 +35,10 @@ export function Navbar({ onResumeClick }: NavbarProps) {
     } else {
       document.body.style.overflow = 'unset';
     }
+
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
   }, [isMobileMenuOpen]);
 
   const handleNavClick = (href: string) => {
@@ -163,7 +167,7 @@ export function Navbar({ onResumeClick }: NavbarProps) {
                 size="sm"
                 leftIcon={<FileText className="w-4 h-4" />}
                 onClick={onResumeClick}
-                className="hidden sm:flex"
+                className={cn('hidden md:flex', isMobileMenuOpen && 'hidden')}
               >
                 Resume
               </Button>
@@ -188,7 +192,7 @@ export function Navbar({ onResumeClick }: NavbarProps) {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-30 md:hidden"
+            className="fixed inset-0 z-50 xl:hidden"
           >
             <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={() => setIsMobileMenuOpen(false)} />
             <motion.nav
@@ -196,9 +200,19 @@ export function Navbar({ onResumeClick }: NavbarProps) {
               animate={{ x: 0 }}
               exit={{ x: '100%' }}
               transition={{ type: 'spring', damping: 25, stiffness: 200 }}
-              className="absolute right-0 top-0 bottom-0 w-72 bg-white dark:bg-gray-900 shadow-2xl"
+              className="absolute right-0 top-0 bottom-0 w-[85vw] max-w-xs bg-white dark:bg-gray-900 shadow-2xl"
             >
-              <div className="flex flex-col h-full pt-20 pb-6 px-6">
+              <div className="flex items-center justify-end pt-4 px-4">
+                <motion.button
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className="p-2.5 rounded-xl text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+                  whileTap={{ scale: 0.9 }}
+                  aria-label="Close menu"
+                >
+                  <X className="w-5 h-5" />
+                </motion.button>
+              </div>
+              <div className="flex flex-col h-[calc(100%-64px)] pb-6 px-6">
                 <div className="flex flex-col gap-2">
                   {navigation.map((item) => (
                     <a
@@ -230,7 +244,7 @@ export function Navbar({ onResumeClick }: NavbarProps) {
                     }}
                     className="w-full"
                   >
-                    View Resume
+                    Resume
                   </Button>
                 </div>
               </div>
