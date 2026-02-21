@@ -1,10 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
   <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#d946ef;stop-opacity:1" />
+    <radialGradient id="nebula" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(20 16) rotate(42) scale(58 52)">
+      <stop offset="0" stop-color="#22d3ee" />
+      <stop offset="0.52" stop-color="#0ea5e9" />
+      <stop offset="1" stop-color="#7c3aed" />
+    </radialGradient>
+    <linearGradient id="ring" x1="10" y1="10" x2="54" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.82" />
+      <stop offset="1" stop-color="#e9d5ff" stop-opacity="0.82" />
     </linearGradient>
   </defs>
-  <rect width="100" height="100" rx="20" fill="url(#grad)"/>
-  <text x="50" y="68" font-family="Inter, system-ui, sans-serif" font-size="50" font-weight="700" fill="white" text-anchor="middle">JD</text>
+
+  <rect x="3" y="3" width="58" height="58" rx="18" fill="url(#nebula)" />
+  <rect x="3" y="3" width="58" height="58" rx="18" stroke="#ffffff" stroke-opacity="0.2" />
+
+  <path d="M16 32C16 24.27 22.27 18 30 18H34C41.73 18 48 24.27 48 32C48 39.73 41.73 46 34 46H30C22.27 46 16 39.73 16 32Z" stroke="url(#ring)" stroke-width="3.6" />
+  <path d="M24 24L20 32L24 40" stroke="#ffffff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M40 24L44 32L40 40" stroke="#ffffff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="32" cy="32" r="2.2" fill="#ffffff" />
 </svg>
