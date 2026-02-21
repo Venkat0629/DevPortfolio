@@ -75,6 +75,8 @@
           { "name": "Java", "level": 92 },
           { "name": "JavaScript", "level": 88 },
           { "name": "Spring Boot", "level": 90 },
+          { "name": "Spring Security", "level": 84 },
+          { "name": "Microservices", "level": 90 },
           { "name": "ReactJS", "level": 85 },
           { "name": "Angular", "level": 80 },
           { "name": "Redux", "level": 78 }
@@ -84,23 +86,26 @@
         "name": "Web & Frontend",
         "icon": "Monitor",
         "skills": [
-          { "name": "HTML5/CSS3", "level": 92 },
+          { "name": "HTML5", "level": 92 },
+          { "name": "CSS3", "level": 90 },
           { "name": "Bootstrap", "level": 88 },
           { "name": "Material-UI", "level": 82 },
           { "name": "REST APIs", "level": 92 },
-          { "name": "JPA/JWT", "level": 85 }
+          { "name": "JPA", "level": 86 },
+          { "name": "JWT", "level": 84 }
         ]
       },
       {
         "name": "Cloud & DevOps",
         "icon": "Cloud",
         "skills": [
-          { "name": "AWS (EC2, S3)", "level": 82 },
+          { "name": "AWS", "level": 82 },
           { "name": "Azure", "level": 80 },
           { "name": "Docker", "level": 85 },
           { "name": "Kubernetes", "level": 78 },
           { "name": "Jenkins", "level": 80 },
-          { "name": "Ansible", "level": 82 }
+          { "name": "Ansible", "level": 82 },
+          { "name": "CI/CD", "level": 84 }
         ]
       },
       {
@@ -114,7 +119,9 @@
           { "name": "Git", "level": 90 },
           { "name": "JIRA", "level": 88 },
           { "name": "Cassandra", "level": 75 },
-          { "name": "Kafka", "level": 80 }
+          { "name": "Kafka", "level": 80 },
+          { "name": "ServiceNow", "level": 76 },
+          { "name": "OpenStack", "level": 82 }
         ]
       }
     ]
@@ -355,6 +362,84 @@
       }
     ]
   },
+  "services": {
+    "title": "What I Can Deliver",
+    "subtitle": "Company-grade delivery as an individual contributor",
+    "intro": "I can support product teams and founders with the same execution quality expected from a software services company, from architecture and build to deployment and optimization.",
+    "offerings": [
+      {
+        "title": "Freelance Product Development",
+        "description": "End-to-end delivery for MVPs, feature modules, and production releases with clear milestones.",
+        "outcomes": [
+          "Rapid feature delivery with production-ready code",
+          "Ownership from planning to deployment",
+          "Transparent progress with iterative demos"
+        ],
+        "engagement": "Project-based / milestone-based"
+      },
+      {
+        "title": "Enterprise Architecture and Build",
+        "description": "Design and implementation of scalable backend and frontend systems for enterprise workloads.",
+        "outcomes": [
+          "Microservices architecture with secure APIs",
+          "Resilient integrations and maintainable codebase",
+          "Performance-focused design for scale"
+        ],
+        "engagement": "Architecture + implementation"
+      },
+      {
+        "title": "E-commerce Platforms",
+        "description": "Build and enhancement of commerce flows including account, cart, registry, and order journeys.",
+        "outcomes": [
+          "Improved user journey and conversion-focused UX",
+          "Robust account, cart, and checkout APIs",
+          "Integrations with existing business systems"
+        ],
+        "engagement": "New build / modernization"
+      },
+      {
+        "title": "Food and Service Web Apps",
+        "description": "Business websites and operational web apps for restaurants and service brands.",
+        "outcomes": [
+          "Responsive booking, menu, and ordering experiences",
+          "Admin-friendly content and workflow support",
+          "Fast, SEO-aware frontends for visibility"
+        ],
+        "engagement": "Small to mid-size business delivery"
+      },
+      {
+        "title": "Small Business Digital Platform Setup",
+        "description": "Complete online platform setup for small-scale businesses, including web app, payments, WhatsApp Business integration, billing, and ongoing support.",
+        "outcomes": [
+          "Business web app with product or service listings",
+          "Payment integration for online transactions",
+          "WhatsApp Business flow for customer communication",
+          "Billing and basic operations support setup"
+        ],
+        "engagement": "Launch + support model"
+      },
+      {
+        "title": "Cloud and DevOps Enablement",
+        "description": "Deployment and delivery automation on AWS/Azure with Docker, Kubernetes, and CI/CD pipelines.",
+        "outcomes": [
+          "Automated build, test, and deployment pipelines",
+          "Faster release cycles with reduced manual effort",
+          "Operational reliability and monitoring readiness"
+        ],
+        "engagement": "Setup + optimization"
+      },
+      {
+        "title": "Legacy to Modern Migration",
+        "description": "Modernization of monolithic or legacy applications into modular, cloud-ready systems.",
+        "outcomes": [
+          "Controlled migration with reduced risk",
+          "Feature-flag based rollout strategy",
+          "Security and dependency upgrades included"
+        ],
+        "engagement": "Phased modernization"
+      }
+    ]
+  },
   "certifications": {
     "title": "Certifications",
     "subtitle": "Professional certifications & credentials",
@@ -369,13 +454,13 @@
         "category": "Cloud"
       },
       {
-        "id": 2,
-        "name": "Oracle Cloud Infrastructure 2025 AI Foundations Associate",
-        "issuer": "Oracle",
-        "date": "2025",
-        "credentialUrl": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=76538C9C7AD121A3B3BD6DF53916BD46F0644FCBF8B662FAF0C93DCCEC552F65",
-        "logo": "/certs/oracle.svg",
-        "category": "Cloud"
+        "id": 11,
+        "name": "AWS Certified AI Practitioner",
+        "issuer": "Amazon Web Services",
+        "date": "2026",
+        "credentialUrl": "https://www.credly.com/badges/fc6eeab2-5ea2-44fa-8825-c202a10b1e89/linked_in?t=tasf9j",
+        "logo": "/certs/aws.svg",
+        "category": "AI"
       },
       {
         "id": 3,
@@ -394,6 +479,15 @@
         "credentialUrl": "https://learn.microsoft.com/en-us/users/veeramane-1794/credentials/22cdff07ca770360",
         "logo": "/certs/microsoft.svg",
         "category": "AI"
+      },
+      {
+        "id": 2,
+        "name": "Oracle Cloud Infrastructure 2025 AI Foundations Associate",
+        "issuer": "Oracle",
+        "date": "2025",
+        "credentialUrl": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=76538C9C7AD121A3B3BD6DF53916BD46F0644FCBF8B662FAF0C93DCCEC552F65",
+        "logo": "/certs/oracle.svg",
+        "category": "Cloud"
       },
       {
         "id": 5,
@@ -508,6 +602,7 @@
     { "name": "Skills", "href": "#skills" },
     { "name": "Experience", "href": "#experience" },
     { "name": "Projects", "href": "#projects" },
+    { "name": "Services", "href": "#services" },
     { "name": "Certifications", "href": "#certifications" },
     { "name": "Contributions", "href": "#github-contributions" },
     { "name": "Contact", "href": "#contact" }

@@ -3,6 +3,7 @@ export { About } from './About';
 export { Skills } from './Skills';
 export { Experience } from './Experience';
 export { Projects } from './Projects';
+export { Services } from './Services';
 export { Certifications } from './Certifications';
 export { Education } from './Education';
 export { Contact } from './Contact';

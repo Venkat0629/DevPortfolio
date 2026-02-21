@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { CheckCircle, Briefcase } from 'lucide-react';
 import { usePortfolio } from '@/context/PortfolioContext';
@@ -16,6 +16,16 @@ export function About() {
   const { about } = usePortfolio();
   const { ref, isVisible } = useScrollReveal();
   const [activeImg, setActiveImg] = useState(0);
+
+  useEffect(() => {
+    const intervalId = window.setInterval(() => {
+      setActiveImg((prev) => (prev + 1) % aboutImages.length);
+    }, 3000);
+
+    return () => {
+      window.clearInterval(intervalId);
+    };
+  }, []);
 
   return (
     <Section
