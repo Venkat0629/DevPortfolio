@@ -19,6 +19,53 @@ export function Skills() {
   const { skills } = usePortfolio();
   const { ref, isVisible } = useScrollReveal();
 
+  const renderCategoryCard = (category: (typeof skills.categories)[number], categoryIndex: number) => {
+    const Icon = iconMap[category.icon] || Code;
+
+    return (
+      <Card variant="glass" hover glow className="h-full border border-primary-100/80 dark:border-primary-900/30">
+        <CardContent className="p-6">
+          <div className="flex items-center justify-between gap-4 mb-5">
+            <div className="flex items-center gap-3">
+              <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-primary-500 to-accent-500 flex items-center justify-center shadow-lg shadow-primary-500/25">
+                <Icon className="w-5 h-5 text-white" />
+              </div>
+              <h3 className="text-lg md:text-xl font-semibold text-gray-900 dark:text-white">
+                {category.name}
+              </h3>
+            </div>
+            <span className="text-xs font-medium px-2.5 py-1 rounded-full bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300">
+              {category.skills.length} Skills
+            </span>
+          </div>
+
+          <div className="flex flex-wrap gap-2.5">
+            {category.skills.map((skill, skillIndex) => (
+              <motion.div
+                key={skill.name}
+                initial={{ opacity: 0, y: 8 }}
+                animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 8 }}
+                transition={{ delay: categoryIndex * 0.08 + skillIndex * 0.03 }}
+                whileHover={{ y: -2 }}
+                className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl border border-gray-200 dark:border-gray-700 bg-white/90 dark:bg-gray-800/80 text-sm text-gray-700 dark:text-gray-200"
+              >
+                {getTechIconUrl(skill.name) && (
+                  <img
+                    src={getTechIconUrl(skill.name)!}
+                    alt={skill.name}
+                    className="w-4 h-4 object-contain"
+                    loading="lazy"
+                  />
+                )}
+                <span className="font-medium">{skill.name}</span>
+              </motion.div>
+            ))}
+          </div>
+        </CardContent>
+      </Card>
+    );
+  };
+
   return (
     <Section
       id="skills"
@@ -42,10 +89,8 @@ export function Skills() {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="hidden lg:grid lg:grid-cols-2 gap-6">
           {skills.categories.map((category, categoryIndex) => {
-            const Icon = iconMap[category.icon] || Code;
-
             return (
               <motion.div
                 key={category.name}
@@ -54,49 +99,27 @@ export function Skills() {
                 animate={isVisible ? 'visible' : 'hidden'}
                 transition={{ delay: categoryIndex * 0.08 }}
               >
-                <Card variant="glass" hover glow className="h-full border border-primary-100/80 dark:border-primary-900/30">
-                  <CardContent className="p-6">
-                    <div className="flex items-center justify-between gap-4 mb-5">
-                      <div className="flex items-center gap-3">
-                        <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-primary-500 to-accent-500 flex items-center justify-center shadow-lg shadow-primary-500/25">
-                          <Icon className="w-5 h-5 text-white" />
-                        </div>
-                        <h3 className="text-lg md:text-xl font-semibold text-gray-900 dark:text-white">
-                          {category.name}
-                        </h3>
-                      </div>
-                      <span className="text-xs font-medium px-2.5 py-1 rounded-full bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300">
-                        {category.skills.length} Skills
-                      </span>
-                    </div>
-
-                    <div className="flex flex-wrap gap-2.5">
-                      {category.skills.map((skill, skillIndex) => (
-                        <motion.div
-                          key={skill.name}
-                          initial={{ opacity: 0, y: 8 }}
-                          animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 8 }}
-                          transition={{ delay: categoryIndex * 0.08 + skillIndex * 0.03 }}
-                          whileHover={{ y: -2 }}
-                          className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl border border-gray-200 dark:border-gray-700 bg-white/90 dark:bg-gray-800/80 text-sm text-gray-700 dark:text-gray-200"
-                        >
-                          {getTechIconUrl(skill.name) && (
-                            <img
-                              src={getTechIconUrl(skill.name)!}
-                              alt={skill.name}
-                              className="w-4 h-4 object-contain"
-                              loading="lazy"
-                            />
-                          )}
-                          <span className="font-medium">{skill.name}</span>
-                        </motion.div>
-                      ))}
-                    </div>
-                  </CardContent>
-                </Card>
+                {renderCategoryCard(category, categoryIndex)}
               </motion.div>
             );
           })}
+        </div>
+
+        <div className="lg:hidden -mx-4 px-4">
+          <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-2">
+            {skills.categories.map((category, categoryIndex) => (
+              <motion.div
+                key={category.name}
+                variants={staggerItem}
+                initial="hidden"
+                animate={isVisible ? 'visible' : 'hidden'}
+                transition={{ delay: categoryIndex * 0.08 }}
+                className="snap-center shrink-0 w-[88%] sm:w-[72%] md:w-[58%]"
+              >
+                {renderCategoryCard(category, categoryIndex)}
+              </motion.div>
+            ))}
+          </div>
         </div>
       </div>
     </Section>

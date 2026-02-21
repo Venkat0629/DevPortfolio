@@ -36,6 +36,57 @@ export function Certifications() {
       ? certifications.items
       : certifications.items.filter((c) => c.category === activeCategory);
 
+  const renderCertificationCard = (cert: (typeof filtered)[number]) => {
+    const colors = categoryColors[cert.category] || categoryColors.Developer;
+
+    return (
+      <Card variant="glass" hover glow className="h-full group">
+        <CardContent className="p-5">
+          <div className="flex items-start justify-between mb-4">
+            <div className="w-12 h-12 rounded-xl overflow-hidden bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 flex items-center justify-center flex-shrink-0 p-1.5">
+              <img
+                src={cert.logo}
+                alt={cert.issuer}
+                className="w-full h-full object-contain"
+              />
+            </div>
+            <span
+              className={`px-2.5 py-1 text-xs font-semibold rounded-full ${colors.bg} ${colors.text}`}
+            >
+              {cert.category}
+            </span>
+          </div>
+
+          <h3 className="text-base font-semibold text-gray-900 dark:text-white mb-1 leading-tight">
+            {cert.name}
+          </h3>
+          <div className="flex items-center gap-1.5 text-sm text-gray-500 dark:text-gray-400 mb-3">
+            <Shield className="w-3.5 h-3.5" />
+            <span>{cert.issuer}</span>
+          </div>
+
+          <div className="flex items-center justify-between pt-3 border-t border-gray-200 dark:border-gray-700">
+            <div className="flex items-center gap-1.5 text-xs text-gray-500 dark:text-gray-400">
+              <Calendar className="w-3.5 h-3.5" />
+              <span>{cert.date}</span>
+            </div>
+            {cert.credentialUrl && (
+              <a
+                href={cert.credentialUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-xs font-medium text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 transition-colors"
+              >
+                Verify
+                <ExternalLink className="w-3 h-3" />
+              </a>
+            )}
+          </div>
+        </CardContent>
+      </Card>
+    );
+  };
+
   return (
     <Section
       id="certifications"
@@ -61,10 +112,8 @@ export function Certifications() {
         </div>
 
         {/* Certification cards grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="hidden lg:grid lg:grid-cols-3 gap-5">
           {filtered.map((cert, index) => {
-            const colors = categoryColors[cert.category] || categoryColors.Developer;
-
             return (
               <motion.div
                 key={cert.id}
@@ -74,56 +123,28 @@ export function Certifications() {
                 transition={{ delay: index * 0.1 }}
                 layout
               >
-                <Card variant="glass" hover glow className="h-full group">
-                  <CardContent className="p-5">
-                    {/* Header: logo + category badge */}
-                    <div className="flex items-start justify-between mb-4">
-                      <div className="w-12 h-12 rounded-xl overflow-hidden bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 flex items-center justify-center flex-shrink-0 p-1.5">
-                        <img
-                          src={cert.logo}
-                          alt={cert.issuer}
-                          className="w-full h-full object-contain"
-                        />
-                      </div>
-                      <span
-                        className={`px-2.5 py-1 text-xs font-semibold rounded-full ${colors.bg} ${colors.text}`}
-                      >
-                        {cert.category}
-                      </span>
-                    </div>
-
-                    {/* Cert name & issuer */}
-                    <h3 className="text-base font-semibold text-gray-900 dark:text-white mb-1 leading-tight">
-                      {cert.name}
-                    </h3>
-                    <div className="flex items-center gap-1.5 text-sm text-gray-500 dark:text-gray-400 mb-3">
-                      <Shield className="w-3.5 h-3.5" />
-                      <span>{cert.issuer}</span>
-                    </div>
-
-                    {/* Date & verify link */}
-                    <div className="flex items-center justify-between pt-3 border-t border-gray-200 dark:border-gray-700">
-                      <div className="flex items-center gap-1.5 text-xs text-gray-500 dark:text-gray-400">
-                        <Calendar className="w-3.5 h-3.5" />
-                        <span>{cert.date}</span>
-                      </div>
-                      {cert.credentialUrl && (
-                        <a
-                          href={cert.credentialUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-1 text-xs font-medium text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 transition-colors"
-                        >
-                          Verify
-                          <ExternalLink className="w-3 h-3" />
-                        </a>
-                      )}
-                    </div>
-                  </CardContent>
-                </Card>
+                {renderCertificationCard(cert)}
               </motion.div>
             );
           })}
+        </div>
+
+        <div className="lg:hidden -mx-4 px-4">
+          <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-2">
+            {filtered.map((cert, index) => (
+              <motion.div
+                key={cert.id}
+                variants={staggerItem}
+                initial="hidden"
+                animate={isVisible ? 'visible' : 'hidden'}
+                transition={{ delay: index * 0.08 }}
+                layout
+                className="snap-center shrink-0 w-[88%] sm:w-[70%] md:w-[55%]"
+              >
+                {renderCertificationCard(cert)}
+              </motion.div>
+            ))}
+          </div>
         </div>
 
         {/* Summary stats */}
