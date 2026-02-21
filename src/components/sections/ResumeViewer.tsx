@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Download, ExternalLink, AlertCircle, FileText } from 'lucide-react';
 import { usePortfolio } from '@/context/PortfolioContext';
 import { Modal, Button } from '@/components/ui';
@@ -12,6 +12,13 @@ export function ResumeViewer({ isOpen, onClose }: ResumeViewerProps) {
   const { personal } = usePortfolio();
   const [isLoading, setIsLoading] = useState(true);
   const [hasError, setHasError] = useState(false);
+
+  useEffect(() => {
+    if (isOpen) {
+      setIsLoading(true);
+      setHasError(false);
+    }
+  }, [isOpen, personal.resumeUrl]);
 
   const handleLoad = () => {
     setIsLoading(false);
@@ -30,7 +37,7 @@ export function ResumeViewer({ isOpen, onClose }: ResumeViewerProps) {
 
   return (
     <Modal isOpen={isOpen} onClose={onClose} title="Resume" size="xl">
-      <div className="relative min-h-[70vh] bg-gray-100 dark:bg-gray-800">
+      <div className="relative min-h-[55vh] sm:min-h-[70vh] bg-gray-100 dark:bg-gray-800">
         {isLoading && !hasError && (
           <div className="absolute inset-0 flex items-center justify-center bg-gray-100 dark:bg-gray-800">
             <div className="text-center">
@@ -75,8 +82,8 @@ export function ResumeViewer({ isOpen, onClose }: ResumeViewerProps) {
         {!hasError && (
           <iframe
             key={isLoading ? 'loading' : 'loaded'}
-            src={`${personal.resumeUrl}#toolbar=0&navpanes=0`}
-            className="w-full h-[70vh]"
+            src={`${personal.resumeUrl}#toolbar=0&navpanes=0&zoom=100`}
+            className="w-full h-[55vh] sm:h-[70vh]"
             title="Resume"
             onLoad={handleLoad}
             onError={handleError}
