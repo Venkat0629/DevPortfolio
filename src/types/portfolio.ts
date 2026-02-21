@@ -128,6 +128,20 @@ export interface Projects {
   items: Project[];
 }
 
+export interface ServiceCapability {
+  title: string;
+  description: string;
+  outcomes: string[];
+  engagement: string;
+}
+
+export interface Services {
+  title: string;
+  subtitle: string;
+  intro: string;
+  offerings: ServiceCapability[];
+}
+
 export interface Certification {
   id: number;
   name: string;
@@ -208,6 +222,7 @@ export interface PortfolioData {
   skills: Skills;
   experience: Experience;
   projects: Projects;
+  services: Services;
   certifications: Certifications;
   education: Education;
   contact: Contact;
