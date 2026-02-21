@@ -75,6 +75,8 @@
           { "name": "Java", "level": 92 },
           { "name": "JavaScript", "level": 88 },
           { "name": "Spring Boot", "level": 90 },
+          { "name": "Spring Security", "level": 84 },
+          { "name": "Microservices", "level": 90 },
           { "name": "ReactJS", "level": 85 },
           { "name": "Angular", "level": 80 },
           { "name": "Redux", "level": 78 }
@@ -84,23 +86,26 @@
         "name": "Web & Frontend",
         "icon": "Monitor",
         "skills": [
-          { "name": "HTML5/CSS3", "level": 92 },
+          { "name": "HTML5", "level": 92 },
+          { "name": "CSS3", "level": 90 },
           { "name": "Bootstrap", "level": 88 },
           { "name": "Material-UI", "level": 82 },
           { "name": "REST APIs", "level": 92 },
-          { "name": "JPA/JWT", "level": 85 }
+          { "name": "JPA", "level": 86 },
+          { "name": "JWT", "level": 84 }
         ]
       },
       {
         "name": "Cloud & DevOps",
         "icon": "Cloud",
         "skills": [
-          { "name": "AWS (EC2, S3)", "level": 82 },
+          { "name": "AWS", "level": 82 },
           { "name": "Azure", "level": 80 },
           { "name": "Docker", "level": 85 },
           { "name": "Kubernetes", "level": 78 },
           { "name": "Jenkins", "level": 80 },
-          { "name": "Ansible", "level": 82 }
+          { "name": "Ansible", "level": 82 },
+          { "name": "CI/CD", "level": 84 }
         ]
       },
       {
@@ -114,7 +119,9 @@
           { "name": "Git", "level": 90 },
           { "name": "JIRA", "level": 88 },
           { "name": "Cassandra", "level": 75 },
-          { "name": "Kafka", "level": 80 }
+          { "name": "Kafka", "level": 80 },
+          { "name": "ServiceNow", "level": 76 },
+          { "name": "OpenStack", "level": 82 }
         ]
       }
     ]
@@ -399,6 +406,17 @@
           "Fast, SEO-aware frontends for visibility"
         ],
         "engagement": "Small to mid-size business delivery"
+      },
+      {
+        "title": "Small Business Digital Platform Setup",
+        "description": "Complete online platform setup for small-scale businesses, including web app, payments, WhatsApp Business integration, billing, and ongoing support.",
+        "outcomes": [
+          "Business web app with product or service listings",
+          "Payment integration for online transactions",
+          "WhatsApp Business flow for customer communication",
+          "Billing and basic operations support setup"
+        ],
+        "engagement": "Launch + support model"
       },
       {
         "title": "Cloud and DevOps Enablement",
