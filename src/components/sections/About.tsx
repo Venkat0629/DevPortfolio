@@ -10,6 +10,7 @@ const aboutImages = [
   '/images/about-1.jpg',
   '/images/about-2.jpg',
   '/images/about-3.jpg',
+  '/images/profile.jpeg'
 ];
 
 export function About() {
